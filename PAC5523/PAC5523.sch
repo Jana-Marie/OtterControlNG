@@ -162,8 +162,6 @@ F 3 "~" V 9550 1750 50  0001 C CNN
 	1    9550 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10400 1500 9850 1500
 Connection ~ 9850 1500
 Wire Wire Line
 	9850 1500 9350 1500
@@ -361,7 +359,6 @@ F 3 "~" V 9550 3650 50  0001 C CNN
 	1    9550 3650
 	1    0    0    -1  
 $EndComp
-Connection ~ 9850 3400
 Wire Wire Line
 	9850 3400 9350 3400
 $Comp
@@ -815,12 +812,8 @@ Wire Wire Line
 Wire Wire Line
 	9850 1250 10200 1250
 Wire Wire Line
-	10400 1400 10200 1400
-Wire Wire Line
-	10200 1400 10200 1850
-Wire Wire Line
 	9850 1850 10200 1850
-Text GLabel 10400 1700 0    50   Input ~ 0
+Text GLabel 10400 1600 0    50   Input ~ 0
 IUH
 Text GLabel 10400 1800 0    50   Input ~ 0
 IUL
@@ -836,8 +829,6 @@ F 3 "~" H 10850 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10200 3300 10200 3750
-Wire Wire Line
 	9850 3750 10200 3750
 Wire Wire Line
 	10200 3150 10200 3200
@@ -845,11 +836,9 @@ Wire Wire Line
 	9850 3150 10200 3150
 Text GLabel 10650 3700 0    50   Input ~ 0
 IVL
-Text GLabel 10650 3600 0    50   Input ~ 0
+Text GLabel 10650 3500 0    50   Input ~ 0
 IVH
 Connection ~ 9850 5300
-Wire Wire Line
-	10400 5300 9850 5300
 $Comp
 L Connector:Conn_01x06_Male J4
 U 1 1 5CCAFEE5
@@ -862,10 +851,6 @@ F 3 "~" H 10600 5400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10400 5200 10200 5200
-Wire Wire Line
-	10200 5200 10200 5650
-Wire Wire Line
 	9850 5650 10200 5650
 Wire Wire Line
 	10200 5050 10200 5100
@@ -875,7 +860,7 @@ Wire Wire Line
 	9850 5050 10200 5050
 Text GLabel 10400 5600 0    50   Input ~ 0
 IWL
-Text GLabel 10400 5500 0    50   Input ~ 0
+Text GLabel 10400 5400 0    50   Input ~ 0
 IWH
 $Comp
 L power:GNDPWR #PWR0118
@@ -1167,12 +1152,8 @@ Text GLabel 2500 2000 1    50   Input ~ 0
 Vin_mon
 Text GLabel 2400 2000 1    50   Input ~ 0
 NTC
-Text GLabel 10650 3500 0    50   Input ~ 0
+Text GLabel 10650 3600 0    50   Input ~ 0
 NTC_FET
-Wire Wire Line
-	9850 3400 10650 3400
-Wire Wire Line
-	10200 3300 10650 3300
 Wire Wire Line
 	10200 3200 10650 3200
 Text GLabel 3550 4150 2    50   Input ~ 0
@@ -1573,4 +1554,35 @@ F1 "IC.sch" 50
 $EndSheet
 Text Notes 5100 1550 0    50   ~ 0
 TVS Diode\nWiderstand
+Wire Wire Line
+	10650 3400 10200 3400
+Wire Wire Line
+	10200 3400 10200 3750
+Wire Wire Line
+	10650 3300 10100 3300
+Wire Wire Line
+	10100 3300 10100 3400
+Wire Wire Line
+	9850 3400 10100 3400
+Connection ~ 9850 3400
+Wire Wire Line
+	10100 5300 10100 5200
+Wire Wire Line
+	10100 5200 10400 5200
+Wire Wire Line
+	10100 5300 9850 5300
+Wire Wire Line
+	10400 5300 10200 5300
+Wire Wire Line
+	10200 5300 10200 5650
+Wire Wire Line
+	10100 1500 10100 1400
+Wire Wire Line
+	10100 1400 10400 1400
+Wire Wire Line
+	10100 1500 9850 1500
+Wire Wire Line
+	10400 1500 10200 1500
+Wire Wire Line
+	10200 1500 10200 1850
 $EndSCHEMATC
