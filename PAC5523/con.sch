@@ -64,8 +64,6 @@ Wire Wire Line
 Connection ~ 6950 1450
 Wire Wire Line
 	6950 1450 7050 1450
-Text GLabel 7050 1450 1    50   Input ~ 0
-VIO
 $Comp
 L Device:R_Small R?
 U 1 1 5D5B7493
@@ -930,4 +928,16 @@ F 3 "" H 3350 4000 50  0001 C CNN
 	1    3350 4000
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D60DF02
+P 7050 1450
+F 0 "#PWR?" H 7050 1300 50  0001 C CNN
+F 1 "+5V" H 7065 1623 50  0000 C CNN
+F 2 "" H 7050 1450 50  0001 C CNN
+F 3 "" H 7050 1450 50  0001 C CNN
+	1    7050 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 7050 1450
 $EndSCHEMATC
