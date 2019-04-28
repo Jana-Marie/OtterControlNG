@@ -15,28 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Q_NMOS_GDS Q1
-U 1 1 5CC448A9
-P 3900 1250
-F 0 "Q1" H 4106 1296 50  0000 L CNN
-F 1 "nfet" H 4106 1205 50  0000 L CNN
-F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 1350 50  0001 C CNN
-F 3 "~" H 3900 1250 50  0001 C CNN
-	1    3900 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GDS Q2
-U 1 1 5CC449D4
-P 3900 1750
-F 0 "Q2" H 4106 1796 50  0000 L CNN
-F 1 "nfet" H 4106 1705 50  0000 L CNN
-F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 1850 50  0001 C CNN
-F 3 "~" H 3900 1750 50  0001 C CNN
-	1    3900 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R1
 U 1 1 5CC44E37
 P 4000 2150
@@ -67,7 +45,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 1050 4000 1000
 Text GLabel 4000 1000 1    50   Input ~ 0
-Vin
+VIN
 Text GLabel 3700 1250 0    50   Input ~ 0
 GUH
 Text GLabel 3700 1750 0    50   Input ~ 0
@@ -116,7 +94,7 @@ U 1 1 5CC47411
 P 2750 1500
 F 0 "J1" H 2858 1881 50  0000 C CNN
 F 1 "CON_U" H 2858 1790 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical_SMD_Pin1Right" H 2750 1500 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Left" H 2750 1500 50  0001 C CNN
 F 3 "~" H 2750 1500 50  0001 C CNN
 	1    2750 1500
 	1    0    0    -1  
@@ -127,32 +105,10 @@ Text GLabel 2950 1400 2    50   Input ~ 0
 GUL
 Text GLabel 2950 1500 2    50   Input ~ 0
 U
-Text GLabel 2950 1700 2    50   Input ~ 0
+Text GLabel 2950 1600 2    50   Input ~ 0
 IUH
 Text GLabel 2950 1800 2    50   Input ~ 0
 IUL
-$Comp
-L Device:Q_NMOS_GDS Q3
-U 1 1 5CC4FA51
-P 3900 3100
-F 0 "Q3" H 4106 3146 50  0000 L CNN
-F 1 "nfet" H 4106 3055 50  0000 L CNN
-F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 3200 50  0001 C CNN
-F 3 "~" H 3900 3100 50  0001 C CNN
-	1    3900 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GDS Q4
-U 1 1 5CC4FA57
-P 3900 3600
-F 0 "Q4" H 4106 3646 50  0000 L CNN
-F 1 "nfet" H 4106 3555 50  0000 L CNN
-F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 3700 50  0001 C CNN
-F 3 "~" H 3900 3600 50  0001 C CNN
-	1    3900 3600
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R4
 U 1 1 5CC4FA5D
@@ -184,7 +140,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 2900 4000 2850
 Text GLabel 4000 2850 1    50   Input ~ 0
-Vin
+VIN
 Text GLabel 3700 3100 0    50   Input ~ 0
 GVH
 Text GLabel 3700 3600 0    50   Input ~ 0
@@ -233,7 +189,7 @@ U 1 1 5CC4FA85
 P 2350 3350
 F 0 "J2" H 2458 3731 50  0000 C CNN
 F 1 "CON_U" H 2458 3640 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical_SMD_Pin1Right" H 2350 3350 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Left" H 2350 3350 50  0001 C CNN
 F 3 "~" H 2350 3350 50  0001 C CNN
 	1    2350 3350
 	1    0    0    -1  
@@ -244,32 +200,10 @@ Text GLabel 2550 3250 2    50   Input ~ 0
 GVL
 Text GLabel 2550 3350 2    50   Input ~ 0
 V
-Text GLabel 2550 3550 2    50   Input ~ 0
+Text GLabel 2550 3450 2    50   Input ~ 0
 IVH
 Text GLabel 2550 3650 2    50   Input ~ 0
 IVL
-$Comp
-L Device:Q_NMOS_GDS Q5
-U 1 1 5CC50EEF
-P 3900 4950
-F 0 "Q5" H 4106 4996 50  0000 L CNN
-F 1 "nfet" H 4106 4905 50  0000 L CNN
-F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 5050 50  0001 C CNN
-F 3 "~" H 3900 4950 50  0001 C CNN
-	1    3900 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GDS Q6
-U 1 1 5CC50EF5
-P 3900 5450
-F 0 "Q6" H 4106 5496 50  0000 L CNN
-F 1 "nfet" H 4106 5405 50  0000 L CNN
-F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 5550 50  0001 C CNN
-F 3 "~" H 3900 5450 50  0001 C CNN
-	1    3900 5450
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R7
 U 1 1 5CC50EFB
@@ -301,7 +235,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4750 4000 4700
 Text GLabel 4000 4700 1    50   Input ~ 0
-Vin
+VIN
 Text GLabel 3700 4950 0    50   Input ~ 0
 GWH
 Text GLabel 3700 5450 0    50   Input ~ 0
@@ -347,48 +281,1591 @@ IWL
 $Comp
 L Connector:Conn_01x06_Male J3
 U 1 1 5CC50F23
-P 2750 5200
-F 0 "J3" H 2858 5581 50  0000 C CNN
-F 1 "CON_U" H 2858 5490 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical_SMD_Pin1Right" H 2750 5200 50  0001 C CNN
-F 3 "~" H 2750 5200 50  0001 C CNN
-	1    2750 5200
+P 2300 5200
+F 0 "J3" H 2408 5581 50  0000 C CNN
+F 1 "CON_U" H 2408 5490 50  0000 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Left" H 2300 5200 50  0001 C CNN
+F 3 "~" H 2300 5200 50  0001 C CNN
+	1    2300 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 2950 5000 2    50   Input ~ 0
+Text GLabel 2500 5000 2    50   Input ~ 0
 GWH
-Text GLabel 2950 5100 2    50   Input ~ 0
+Text GLabel 2500 5100 2    50   Input ~ 0
 GWL
-Text GLabel 2950 5200 2    50   Input ~ 0
+Text GLabel 2500 5200 2    50   Input ~ 0
 W
-Text GLabel 2950 5400 2    50   Input ~ 0
+Text GLabel 2500 5300 2    50   Input ~ 0
 IWH
-Text GLabel 2950 5500 2    50   Input ~ 0
+Text GLabel 2500 5500 2    50   Input ~ 0
 IWL
 $Comp
-L Device:Thermistor_NTC TH?
+L Device:Thermistor_NTC TH1
 U 1 1 5CC4C81B
-P 2900 3450
-F 0 "TH?" V 2610 3450 50  0000 C CNN
-F 1 "10k" V 2701 3450 50  0000 C CNN
-F 2 "" H 2900 3500 50  0001 C CNN
-F 3 "~" H 2900 3500 50  0001 C CNN
-	1    2900 3450
+P 2900 3550
+F 0 "TH1" V 2610 3550 50  0000 C CNN
+F 1 "10k" V 2701 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2900 3600 50  0001 C CNN
+F 3 "~" H 2900 3600 50  0001 C CNN
+	1    2900 3550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2750 3450 2550 3450
+	2750 3550 2550 3550
+Wire Wire Line
+	3200 3550 3050 3550
 $Comp
-L power:GND #PWR?
-U 1 1 5CC4DD44
-P 3200 3450
-F 0 "#PWR?" H 3200 3200 50  0001 C CNN
-F 1 "GND" H 3205 3277 50  0000 C CNN
-F 2 "" H 3200 3450 50  0001 C CNN
-F 3 "" H 3200 3450 50  0001 C CNN
-	1    3200 3450
+L Device:Q_NMOS_SGD Q1
+U 1 1 5CC5FFC8
+P 3900 1250
+F 0 "Q1" H 4106 1296 50  0000 L CNN
+F 1 "AON6276" H 4106 1205 50  0000 L CNN
+F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 1350 50  0001 C CNN
+F 3 "~" H 3900 1250 50  0001 C CNN
+	1    3900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_SGD Q2
+U 1 1 5CC62ED4
+P 3900 1750
+F 0 "Q2" H 4106 1796 50  0000 L CNN
+F 1 "AON6276" H 4106 1705 50  0000 L CNN
+F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 1850 50  0001 C CNN
+F 3 "~" H 3900 1750 50  0001 C CNN
+	1    3900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_SGD Q3
+U 1 1 5CC63447
+P 3900 3100
+F 0 "Q3" H 4106 3146 50  0000 L CNN
+F 1 "AON6276" H 4106 3055 50  0000 L CNN
+F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 3200 50  0001 C CNN
+F 3 "~" H 3900 3100 50  0001 C CNN
+	1    3900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_SGD Q4
+U 1 1 5CC637B9
+P 3900 3600
+F 0 "Q4" H 4106 3646 50  0000 L CNN
+F 1 "AON6276" H 4106 3555 50  0000 L CNN
+F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 3700 50  0001 C CNN
+F 3 "~" H 3900 3600 50  0001 C CNN
+	1    3900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_SGD Q5
+U 1 1 5CC63B2B
+P 3900 4950
+F 0 "Q5" H 4106 4996 50  0000 L CNN
+F 1 "AON6276" H 4106 4905 50  0000 L CNN
+F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 5050 50  0001 C CNN
+F 3 "~" H 3900 4950 50  0001 C CNN
+	1    3900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_SGD Q6
+U 1 1 5CC63E9D
+P 3900 5450
+F 0 "Q6" H 4106 5496 50  0000 L CNN
+F 1 "AON6276" H 4106 5405 50  0000 L CNN
+F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 5550 50  0001 C CNN
+F 3 "~" H 3900 5450 50  0001 C CNN
+	1    3900 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 3450 3050 3450
+	3200 5400 3200 3550
+Wire Wire Line
+	2500 5400 3200 5400
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5CC8ABCF
+P 1550 2050
+F 0 "H2" H 1650 2099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1650 2008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 1550 2050 50  0001 C CNN
+F 3 "~" H 1550 2050 50  0001 C CNN
+	1    1550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5CC8B41C
+P 700 2050
+F 0 "H1" H 800 2099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 800 2008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 700 2050 50  0001 C CNN
+F 3 "~" H 700 2050 50  0001 C CNN
+	1    700  2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5CC8BD6B
+P 700 2150
+F 0 "#PWR0104" H 700 1900 50  0001 C CNN
+F 1 "GND" H 705 1977 50  0000 C CNN
+F 2 "" H 700 2150 50  0001 C CNN
+F 3 "" H 700 2150 50  0001 C CNN
+	1    700  2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5CC8C189
+P 1550 2150
+F 0 "#PWR0105" H 1550 1900 50  0001 C CNN
+F 1 "GND" H 1555 1977 50  0000 C CNN
+F 2 "" H 1550 2150 50  0001 C CNN
+F 3 "" H 1550 2150 50  0001 C CNN
+	1    1550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5CC98C7D
+P 5200 1750
+F 0 "#PWR0106" H 5200 1500 50  0001 C CNN
+F 1 "GND" H 5205 1577 50  0000 C CNN
+F 2 "" H 5200 1750 50  0001 C CNN
+F 3 "" H 5200 1750 50  0001 C CNN
+	1    5200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5CC990BF
+P 5200 1650
+F 0 "C1" H 5292 1696 50  0000 L CNN
+F 1 "2u2" H 5292 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5200 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5200 1650 50  0001 C CNN
+	1    5200 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 1550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0107
+U 1 1 5CCBA69F
+P 5500 1750
+F 0 "#PWR0107" H 5500 1500 50  0001 C CNN
+F 1 "GND" H 5505 1577 50  0000 C CNN
+F 2 "" H 5500 1750 50  0001 C CNN
+F 3 "" H 5500 1750 50  0001 C CNN
+	1    5500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5CCBA6A5
+P 5500 1650
+F 0 "C7" H 5592 1696 50  0000 L CNN
+F 1 "2u2" H 5592 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5500 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5500 1650 50  0001 C CNN
+	1    5500 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 1550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0108
+U 1 1 5CCBAC4B
+P 5800 1750
+F 0 "#PWR0108" H 5800 1500 50  0001 C CNN
+F 1 "GND" H 5805 1577 50  0000 C CNN
+F 2 "" H 5800 1750 50  0001 C CNN
+F 3 "" H 5800 1750 50  0001 C CNN
+	1    5800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 5CCBAC51
+P 5800 1650
+F 0 "C13" H 5892 1696 50  0000 L CNN
+F 1 "2u2" H 5892 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5800 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5800 1650 50  0001 C CNN
+	1    5800 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 1550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0109
+U 1 1 5CCBB1A9
+P 6100 1750
+F 0 "#PWR0109" H 6100 1500 50  0001 C CNN
+F 1 "GND" H 6105 1577 50  0000 C CNN
+F 2 "" H 6100 1750 50  0001 C CNN
+F 3 "" H 6100 1750 50  0001 C CNN
+	1    6100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C19
+U 1 1 5CCBB1AF
+P 6100 1650
+F 0 "C19" H 6192 1696 50  0000 L CNN
+F 1 "2u2" H 6192 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6100 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6100 1650 50  0001 C CNN
+	1    6100 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 1550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0110
+U 1 1 5CCBB707
+P 6400 1750
+F 0 "#PWR0110" H 6400 1500 50  0001 C CNN
+F 1 "GND" H 6405 1577 50  0000 C CNN
+F 2 "" H 6400 1750 50  0001 C CNN
+F 3 "" H 6400 1750 50  0001 C CNN
+	1    6400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C25
+U 1 1 5CCBB70D
+P 6400 1650
+F 0 "C25" H 6492 1696 50  0000 L CNN
+F 1 "2u2" H 6492 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6400 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6400 1650 50  0001 C CNN
+	1    6400 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 1550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0111
+U 1 1 5CCBD870
+P 5200 2350
+F 0 "#PWR0111" H 5200 2100 50  0001 C CNN
+F 1 "GND" H 5205 2177 50  0000 C CNN
+F 2 "" H 5200 2350 50  0001 C CNN
+F 3 "" H 5200 2350 50  0001 C CNN
+	1    5200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5CCBD876
+P 5200 2250
+F 0 "C2" H 5292 2296 50  0000 L CNN
+F 1 "2u2" H 5292 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5200 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5200 2250 50  0001 C CNN
+	1    5200 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 2150 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0112
+U 1 1 5CCBD87D
+P 5500 2350
+F 0 "#PWR0112" H 5500 2100 50  0001 C CNN
+F 1 "GND" H 5505 2177 50  0000 C CNN
+F 2 "" H 5500 2350 50  0001 C CNN
+F 3 "" H 5500 2350 50  0001 C CNN
+	1    5500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 5CCBD883
+P 5500 2250
+F 0 "C8" H 5592 2296 50  0000 L CNN
+F 1 "2u2" H 5592 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5500 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5500 2250 50  0001 C CNN
+	1    5500 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 2150 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0113
+U 1 1 5CCBD88A
+P 5800 2350
+F 0 "#PWR0113" H 5800 2100 50  0001 C CNN
+F 1 "GND" H 5805 2177 50  0000 C CNN
+F 2 "" H 5800 2350 50  0001 C CNN
+F 3 "" H 5800 2350 50  0001 C CNN
+	1    5800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 5CCBD890
+P 5800 2250
+F 0 "C14" H 5892 2296 50  0000 L CNN
+F 1 "2u2" H 5892 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5800 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5800 2250 50  0001 C CNN
+	1    5800 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 2150 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0114
+U 1 1 5CCBD897
+P 6100 2350
+F 0 "#PWR0114" H 6100 2100 50  0001 C CNN
+F 1 "GND" H 6105 2177 50  0000 C CNN
+F 2 "" H 6100 2350 50  0001 C CNN
+F 3 "" H 6100 2350 50  0001 C CNN
+	1    6100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 5CCBD89D
+P 6100 2250
+F 0 "C20" H 6192 2296 50  0000 L CNN
+F 1 "2u2" H 6192 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6100 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6100 2250 50  0001 C CNN
+	1    6100 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 2150 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0115
+U 1 1 5CCBD8A4
+P 6400 2350
+F 0 "#PWR0115" H 6400 2100 50  0001 C CNN
+F 1 "GND" H 6405 2177 50  0000 C CNN
+F 2 "" H 6400 2350 50  0001 C CNN
+F 3 "" H 6400 2350 50  0001 C CNN
+	1    6400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C26
+U 1 1 5CCBD8AA
+P 6400 2250
+F 0 "C26" H 6492 2296 50  0000 L CNN
+F 1 "2u2" H 6492 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6400 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6400 2250 50  0001 C CNN
+	1    6400 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 2150 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0116
+U 1 1 5CCBEF22
+P 5200 2950
+F 0 "#PWR0116" H 5200 2700 50  0001 C CNN
+F 1 "GND" H 5205 2777 50  0000 C CNN
+F 2 "" H 5200 2950 50  0001 C CNN
+F 3 "" H 5200 2950 50  0001 C CNN
+	1    5200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5CCBEF28
+P 5200 2850
+F 0 "C3" H 5292 2896 50  0000 L CNN
+F 1 "2u2" H 5292 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5200 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5200 2850 50  0001 C CNN
+	1    5200 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 2750 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0117
+U 1 1 5CCBEF2F
+P 5500 2950
+F 0 "#PWR0117" H 5500 2700 50  0001 C CNN
+F 1 "GND" H 5505 2777 50  0000 C CNN
+F 2 "" H 5500 2950 50  0001 C CNN
+F 3 "" H 5500 2950 50  0001 C CNN
+	1    5500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 5CCBEF35
+P 5500 2850
+F 0 "C9" H 5592 2896 50  0000 L CNN
+F 1 "2u2" H 5592 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5500 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5500 2850 50  0001 C CNN
+	1    5500 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 2750 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0118
+U 1 1 5CCBEF3C
+P 5800 2950
+F 0 "#PWR0118" H 5800 2700 50  0001 C CNN
+F 1 "GND" H 5805 2777 50  0000 C CNN
+F 2 "" H 5800 2950 50  0001 C CNN
+F 3 "" H 5800 2950 50  0001 C CNN
+	1    5800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 5CCBEF42
+P 5800 2850
+F 0 "C15" H 5892 2896 50  0000 L CNN
+F 1 "2u2" H 5892 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5800 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5800 2850 50  0001 C CNN
+	1    5800 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 2750 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0119
+U 1 1 5CCBEF49
+P 6100 2950
+F 0 "#PWR0119" H 6100 2700 50  0001 C CNN
+F 1 "GND" H 6105 2777 50  0000 C CNN
+F 2 "" H 6100 2950 50  0001 C CNN
+F 3 "" H 6100 2950 50  0001 C CNN
+	1    6100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 5CCBEF4F
+P 6100 2850
+F 0 "C21" H 6192 2896 50  0000 L CNN
+F 1 "2u2" H 6192 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6100 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6100 2850 50  0001 C CNN
+	1    6100 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 2750 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0120
+U 1 1 5CCBEF56
+P 6400 2950
+F 0 "#PWR0120" H 6400 2700 50  0001 C CNN
+F 1 "GND" H 6405 2777 50  0000 C CNN
+F 2 "" H 6400 2950 50  0001 C CNN
+F 3 "" H 6400 2950 50  0001 C CNN
+	1    6400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C27
+U 1 1 5CCBEF5C
+P 6400 2850
+F 0 "C27" H 6492 2896 50  0000 L CNN
+F 1 "2u2" H 6492 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6400 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6400 2850 50  0001 C CNN
+	1    6400 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 2750 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0121
+U 1 1 5CCC05D4
+P 5200 3550
+F 0 "#PWR0121" H 5200 3300 50  0001 C CNN
+F 1 "GND" H 5205 3377 50  0000 C CNN
+F 2 "" H 5200 3550 50  0001 C CNN
+F 3 "" H 5200 3550 50  0001 C CNN
+	1    5200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5CCC05DA
+P 5200 3450
+F 0 "C4" H 5292 3496 50  0000 L CNN
+F 1 "2u2" H 5292 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5200 3450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5200 3450 50  0001 C CNN
+	1    5200 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 3350 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0122
+U 1 1 5CCC05E1
+P 5500 3550
+F 0 "#PWR0122" H 5500 3300 50  0001 C CNN
+F 1 "GND" H 5505 3377 50  0000 C CNN
+F 2 "" H 5500 3550 50  0001 C CNN
+F 3 "" H 5500 3550 50  0001 C CNN
+	1    5500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 5CCC05E7
+P 5500 3450
+F 0 "C10" H 5592 3496 50  0000 L CNN
+F 1 "2u2" H 5592 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5500 3450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5500 3450 50  0001 C CNN
+	1    5500 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 3350 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0123
+U 1 1 5CCC05EE
+P 5800 3550
+F 0 "#PWR0123" H 5800 3300 50  0001 C CNN
+F 1 "GND" H 5805 3377 50  0000 C CNN
+F 2 "" H 5800 3550 50  0001 C CNN
+F 3 "" H 5800 3550 50  0001 C CNN
+	1    5800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 5CCC05F4
+P 5800 3450
+F 0 "C16" H 5892 3496 50  0000 L CNN
+F 1 "2u2" H 5892 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5800 3450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5800 3450 50  0001 C CNN
+	1    5800 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 3350 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0124
+U 1 1 5CCC05FB
+P 6100 3550
+F 0 "#PWR0124" H 6100 3300 50  0001 C CNN
+F 1 "GND" H 6105 3377 50  0000 C CNN
+F 2 "" H 6100 3550 50  0001 C CNN
+F 3 "" H 6100 3550 50  0001 C CNN
+	1    6100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C22
+U 1 1 5CCC0601
+P 6100 3450
+F 0 "C22" H 6192 3496 50  0000 L CNN
+F 1 "2u2" H 6192 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6100 3450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6100 3450 50  0001 C CNN
+	1    6100 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 3350 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0125
+U 1 1 5CCC0608
+P 6400 3550
+F 0 "#PWR0125" H 6400 3300 50  0001 C CNN
+F 1 "GND" H 6405 3377 50  0000 C CNN
+F 2 "" H 6400 3550 50  0001 C CNN
+F 3 "" H 6400 3550 50  0001 C CNN
+	1    6400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C28
+U 1 1 5CCC060E
+P 6400 3450
+F 0 "C28" H 6492 3496 50  0000 L CNN
+F 1 "2u2" H 6492 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6400 3450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6400 3450 50  0001 C CNN
+	1    6400 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 3350 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0126
+U 1 1 5CCC13C2
+P 5200 4150
+F 0 "#PWR0126" H 5200 3900 50  0001 C CNN
+F 1 "GND" H 5205 3977 50  0000 C CNN
+F 2 "" H 5200 4150 50  0001 C CNN
+F 3 "" H 5200 4150 50  0001 C CNN
+	1    5200 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5CCC13C8
+P 5200 4050
+F 0 "C5" H 5292 4096 50  0000 L CNN
+F 1 "2u2" H 5292 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5200 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5200 4050 50  0001 C CNN
+	1    5200 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 3950 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0127
+U 1 1 5CCC13CF
+P 5500 4150
+F 0 "#PWR0127" H 5500 3900 50  0001 C CNN
+F 1 "GND" H 5505 3977 50  0000 C CNN
+F 2 "" H 5500 4150 50  0001 C CNN
+F 3 "" H 5500 4150 50  0001 C CNN
+	1    5500 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 5CCC13D5
+P 5500 4050
+F 0 "C11" H 5592 4096 50  0000 L CNN
+F 1 "2u2" H 5592 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5500 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5500 4050 50  0001 C CNN
+	1    5500 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 3950 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0128
+U 1 1 5CCC13DC
+P 5800 4150
+F 0 "#PWR0128" H 5800 3900 50  0001 C CNN
+F 1 "GND" H 5805 3977 50  0000 C CNN
+F 2 "" H 5800 4150 50  0001 C CNN
+F 3 "" H 5800 4150 50  0001 C CNN
+	1    5800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 5CCC13E2
+P 5800 4050
+F 0 "C17" H 5892 4096 50  0000 L CNN
+F 1 "2u2" H 5892 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5800 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5800 4050 50  0001 C CNN
+	1    5800 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 3950 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0129
+U 1 1 5CCC13E9
+P 6100 4150
+F 0 "#PWR0129" H 6100 3900 50  0001 C CNN
+F 1 "GND" H 6105 3977 50  0000 C CNN
+F 2 "" H 6100 4150 50  0001 C CNN
+F 3 "" H 6100 4150 50  0001 C CNN
+	1    6100 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C23
+U 1 1 5CCC13EF
+P 6100 4050
+F 0 "C23" H 6192 4096 50  0000 L CNN
+F 1 "2u2" H 6192 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6100 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6100 4050 50  0001 C CNN
+	1    6100 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 3950 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0130
+U 1 1 5CCC13F6
+P 6400 4150
+F 0 "#PWR0130" H 6400 3900 50  0001 C CNN
+F 1 "GND" H 6405 3977 50  0000 C CNN
+F 2 "" H 6400 4150 50  0001 C CNN
+F 3 "" H 6400 4150 50  0001 C CNN
+	1    6400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C29
+U 1 1 5CCC13FC
+P 6400 4050
+F 0 "C29" H 6492 4096 50  0000 L CNN
+F 1 "2u2" H 6492 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6400 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6400 4050 50  0001 C CNN
+	1    6400 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 3950 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0131
+U 1 1 5CCC2D9A
+P 5200 4750
+F 0 "#PWR0131" H 5200 4500 50  0001 C CNN
+F 1 "GND" H 5205 4577 50  0000 C CNN
+F 2 "" H 5200 4750 50  0001 C CNN
+F 3 "" H 5200 4750 50  0001 C CNN
+	1    5200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5CCC2DA0
+P 5200 4650
+F 0 "C6" H 5292 4696 50  0000 L CNN
+F 1 "2u2" H 5292 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5200 4650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5200 4650 50  0001 C CNN
+	1    5200 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 4550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0132
+U 1 1 5CCC2DA7
+P 5500 4750
+F 0 "#PWR0132" H 5500 4500 50  0001 C CNN
+F 1 "GND" H 5505 4577 50  0000 C CNN
+F 2 "" H 5500 4750 50  0001 C CNN
+F 3 "" H 5500 4750 50  0001 C CNN
+	1    5500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 5CCC2DAD
+P 5500 4650
+F 0 "C12" H 5592 4696 50  0000 L CNN
+F 1 "2u2" H 5592 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5500 4650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5500 4650 50  0001 C CNN
+	1    5500 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 4550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0133
+U 1 1 5CCC2DB4
+P 5800 4750
+F 0 "#PWR0133" H 5800 4500 50  0001 C CNN
+F 1 "GND" H 5805 4577 50  0000 C CNN
+F 2 "" H 5800 4750 50  0001 C CNN
+F 3 "" H 5800 4750 50  0001 C CNN
+	1    5800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 5CCC2DBA
+P 5800 4650
+F 0 "C18" H 5892 4696 50  0000 L CNN
+F 1 "2u2" H 5892 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5800 4650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 5800 4650 50  0001 C CNN
+	1    5800 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 4550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0134
+U 1 1 5CCC2DC1
+P 6100 4750
+F 0 "#PWR0134" H 6100 4500 50  0001 C CNN
+F 1 "GND" H 6105 4577 50  0000 C CNN
+F 2 "" H 6100 4750 50  0001 C CNN
+F 3 "" H 6100 4750 50  0001 C CNN
+	1    6100 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C24
+U 1 1 5CCC2DC7
+P 6100 4650
+F 0 "C24" H 6192 4696 50  0000 L CNN
+F 1 "2u2" H 6192 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6100 4650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6100 4650 50  0001 C CNN
+	1    6100 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 4550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0135
+U 1 1 5CCC2DCE
+P 6400 4750
+F 0 "#PWR0135" H 6400 4500 50  0001 C CNN
+F 1 "GND" H 6405 4577 50  0000 C CNN
+F 2 "" H 6400 4750 50  0001 C CNN
+F 3 "" H 6400 4750 50  0001 C CNN
+	1    6400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C30
+U 1 1 5CCC2DD4
+P 6400 4650
+F 0 "C30" H 6492 4696 50  0000 L CNN
+F 1 "2u2" H 6492 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6400 4650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6400 4650 50  0001 C CNN
+	1    6400 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 4550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0136
+U 1 1 5CCCB5E1
+P 6750 1750
+F 0 "#PWR0136" H 6750 1500 50  0001 C CNN
+F 1 "GND" H 6755 1577 50  0000 C CNN
+F 2 "" H 6750 1750 50  0001 C CNN
+F 3 "" H 6750 1750 50  0001 C CNN
+	1    6750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C31
+U 1 1 5CCCB5E7
+P 6750 1650
+F 0 "C31" H 6842 1696 50  0000 L CNN
+F 1 "2u2" H 6842 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6750 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6750 1650 50  0001 C CNN
+	1    6750 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 1550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0137
+U 1 1 5CCCB5EE
+P 7050 1750
+F 0 "#PWR0137" H 7050 1500 50  0001 C CNN
+F 1 "GND" H 7055 1577 50  0000 C CNN
+F 2 "" H 7050 1750 50  0001 C CNN
+F 3 "" H 7050 1750 50  0001 C CNN
+	1    7050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C37
+U 1 1 5CCCB5F4
+P 7050 1650
+F 0 "C37" H 7142 1696 50  0000 L CNN
+F 1 "2u2" H 7142 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7050 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7050 1650 50  0001 C CNN
+	1    7050 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 1550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0138
+U 1 1 5CCCB5FB
+P 7350 1750
+F 0 "#PWR0138" H 7350 1500 50  0001 C CNN
+F 1 "GND" H 7355 1577 50  0000 C CNN
+F 2 "" H 7350 1750 50  0001 C CNN
+F 3 "" H 7350 1750 50  0001 C CNN
+	1    7350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C43
+U 1 1 5CCCB601
+P 7350 1650
+F 0 "C43" H 7442 1696 50  0000 L CNN
+F 1 "2u2" H 7442 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7350 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7350 1650 50  0001 C CNN
+	1    7350 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 1550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0139
+U 1 1 5CCCB608
+P 7650 1750
+F 0 "#PWR0139" H 7650 1500 50  0001 C CNN
+F 1 "GND" H 7655 1577 50  0000 C CNN
+F 2 "" H 7650 1750 50  0001 C CNN
+F 3 "" H 7650 1750 50  0001 C CNN
+	1    7650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C49
+U 1 1 5CCCB60E
+P 7650 1650
+F 0 "C49" H 7742 1696 50  0000 L CNN
+F 1 "2u2" H 7742 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7650 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7650 1650 50  0001 C CNN
+	1    7650 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 1550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0140
+U 1 1 5CCCB615
+P 7950 1750
+F 0 "#PWR0140" H 7950 1500 50  0001 C CNN
+F 1 "GND" H 7955 1577 50  0000 C CNN
+F 2 "" H 7950 1750 50  0001 C CNN
+F 3 "" H 7950 1750 50  0001 C CNN
+	1    7950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C55
+U 1 1 5CCCB61B
+P 7950 1650
+F 0 "C55" H 8042 1696 50  0000 L CNN
+F 1 "2u2" H 8042 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7950 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7950 1650 50  0001 C CNN
+	1    7950 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 1550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0141
+U 1 1 5CCCB622
+P 6750 2350
+F 0 "#PWR0141" H 6750 2100 50  0001 C CNN
+F 1 "GND" H 6755 2177 50  0000 C CNN
+F 2 "" H 6750 2350 50  0001 C CNN
+F 3 "" H 6750 2350 50  0001 C CNN
+	1    6750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C32
+U 1 1 5CCCB628
+P 6750 2250
+F 0 "C32" H 6842 2296 50  0000 L CNN
+F 1 "2u2" H 6842 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6750 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6750 2250 50  0001 C CNN
+	1    6750 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 2150 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0142
+U 1 1 5CCCB62F
+P 7050 2350
+F 0 "#PWR0142" H 7050 2100 50  0001 C CNN
+F 1 "GND" H 7055 2177 50  0000 C CNN
+F 2 "" H 7050 2350 50  0001 C CNN
+F 3 "" H 7050 2350 50  0001 C CNN
+	1    7050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C38
+U 1 1 5CCCB635
+P 7050 2250
+F 0 "C38" H 7142 2296 50  0000 L CNN
+F 1 "2u2" H 7142 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7050 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7050 2250 50  0001 C CNN
+	1    7050 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 2150 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0143
+U 1 1 5CCCB63C
+P 7350 2350
+F 0 "#PWR0143" H 7350 2100 50  0001 C CNN
+F 1 "GND" H 7355 2177 50  0000 C CNN
+F 2 "" H 7350 2350 50  0001 C CNN
+F 3 "" H 7350 2350 50  0001 C CNN
+	1    7350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C44
+U 1 1 5CCCB642
+P 7350 2250
+F 0 "C44" H 7442 2296 50  0000 L CNN
+F 1 "2u2" H 7442 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7350 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7350 2250 50  0001 C CNN
+	1    7350 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 2150 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0144
+U 1 1 5CCCB649
+P 7650 2350
+F 0 "#PWR0144" H 7650 2100 50  0001 C CNN
+F 1 "GND" H 7655 2177 50  0000 C CNN
+F 2 "" H 7650 2350 50  0001 C CNN
+F 3 "" H 7650 2350 50  0001 C CNN
+	1    7650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C50
+U 1 1 5CCCB64F
+P 7650 2250
+F 0 "C50" H 7742 2296 50  0000 L CNN
+F 1 "2u2" H 7742 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7650 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7650 2250 50  0001 C CNN
+	1    7650 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 2150 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0145
+U 1 1 5CCCB656
+P 7950 2350
+F 0 "#PWR0145" H 7950 2100 50  0001 C CNN
+F 1 "GND" H 7955 2177 50  0000 C CNN
+F 2 "" H 7950 2350 50  0001 C CNN
+F 3 "" H 7950 2350 50  0001 C CNN
+	1    7950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C56
+U 1 1 5CCCB65C
+P 7950 2250
+F 0 "C56" H 8042 2296 50  0000 L CNN
+F 1 "2u2" H 8042 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7950 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7950 2250 50  0001 C CNN
+	1    7950 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 2150 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0146
+U 1 1 5CCCB663
+P 6750 2950
+F 0 "#PWR0146" H 6750 2700 50  0001 C CNN
+F 1 "GND" H 6755 2777 50  0000 C CNN
+F 2 "" H 6750 2950 50  0001 C CNN
+F 3 "" H 6750 2950 50  0001 C CNN
+	1    6750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C33
+U 1 1 5CCCB669
+P 6750 2850
+F 0 "C33" H 6842 2896 50  0000 L CNN
+F 1 "2u2" H 6842 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6750 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6750 2850 50  0001 C CNN
+	1    6750 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 2750 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0147
+U 1 1 5CCCB670
+P 7050 2950
+F 0 "#PWR0147" H 7050 2700 50  0001 C CNN
+F 1 "GND" H 7055 2777 50  0000 C CNN
+F 2 "" H 7050 2950 50  0001 C CNN
+F 3 "" H 7050 2950 50  0001 C CNN
+	1    7050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C39
+U 1 1 5CCCB676
+P 7050 2850
+F 0 "C39" H 7142 2896 50  0000 L CNN
+F 1 "2u2" H 7142 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7050 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7050 2850 50  0001 C CNN
+	1    7050 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 2750 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0148
+U 1 1 5CCCB67D
+P 7350 2950
+F 0 "#PWR0148" H 7350 2700 50  0001 C CNN
+F 1 "GND" H 7355 2777 50  0000 C CNN
+F 2 "" H 7350 2950 50  0001 C CNN
+F 3 "" H 7350 2950 50  0001 C CNN
+	1    7350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C45
+U 1 1 5CCCB683
+P 7350 2850
+F 0 "C45" H 7442 2896 50  0000 L CNN
+F 1 "2u2" H 7442 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7350 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7350 2850 50  0001 C CNN
+	1    7350 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 2750 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0149
+U 1 1 5CCCB68A
+P 7650 2950
+F 0 "#PWR0149" H 7650 2700 50  0001 C CNN
+F 1 "GND" H 7655 2777 50  0000 C CNN
+F 2 "" H 7650 2950 50  0001 C CNN
+F 3 "" H 7650 2950 50  0001 C CNN
+	1    7650 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C51
+U 1 1 5CCCB690
+P 7650 2850
+F 0 "C51" H 7742 2896 50  0000 L CNN
+F 1 "2u2" H 7742 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7650 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7650 2850 50  0001 C CNN
+	1    7650 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 2750 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0150
+U 1 1 5CCCB697
+P 7950 2950
+F 0 "#PWR0150" H 7950 2700 50  0001 C CNN
+F 1 "GND" H 7955 2777 50  0000 C CNN
+F 2 "" H 7950 2950 50  0001 C CNN
+F 3 "" H 7950 2950 50  0001 C CNN
+	1    7950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C57
+U 1 1 5CCCB69D
+P 7950 2850
+F 0 "C57" H 8042 2896 50  0000 L CNN
+F 1 "2u2" H 8042 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7950 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7950 2850 50  0001 C CNN
+	1    7950 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 2750 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0151
+U 1 1 5CCCB6A4
+P 6750 3550
+F 0 "#PWR0151" H 6750 3300 50  0001 C CNN
+F 1 "GND" H 6755 3377 50  0000 C CNN
+F 2 "" H 6750 3550 50  0001 C CNN
+F 3 "" H 6750 3550 50  0001 C CNN
+	1    6750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C34
+U 1 1 5CCCB6AA
+P 6750 3450
+F 0 "C34" H 6842 3496 50  0000 L CNN
+F 1 "2u2" H 6842 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6750 3450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6750 3450 50  0001 C CNN
+	1    6750 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 3350 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0152
+U 1 1 5CCCB6B1
+P 7050 3550
+F 0 "#PWR0152" H 7050 3300 50  0001 C CNN
+F 1 "GND" H 7055 3377 50  0000 C CNN
+F 2 "" H 7050 3550 50  0001 C CNN
+F 3 "" H 7050 3550 50  0001 C CNN
+	1    7050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C40
+U 1 1 5CCCB6B7
+P 7050 3450
+F 0 "C40" H 7142 3496 50  0000 L CNN
+F 1 "2u2" H 7142 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7050 3450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7050 3450 50  0001 C CNN
+	1    7050 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 3350 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0153
+U 1 1 5CCCB6BE
+P 7350 3550
+F 0 "#PWR0153" H 7350 3300 50  0001 C CNN
+F 1 "GND" H 7355 3377 50  0000 C CNN
+F 2 "" H 7350 3550 50  0001 C CNN
+F 3 "" H 7350 3550 50  0001 C CNN
+	1    7350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C46
+U 1 1 5CCCB6C4
+P 7350 3450
+F 0 "C46" H 7442 3496 50  0000 L CNN
+F 1 "2u2" H 7442 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7350 3450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7350 3450 50  0001 C CNN
+	1    7350 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 3350 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0154
+U 1 1 5CCCB6CB
+P 7650 3550
+F 0 "#PWR0154" H 7650 3300 50  0001 C CNN
+F 1 "GND" H 7655 3377 50  0000 C CNN
+F 2 "" H 7650 3550 50  0001 C CNN
+F 3 "" H 7650 3550 50  0001 C CNN
+	1    7650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C52
+U 1 1 5CCCB6D1
+P 7650 3450
+F 0 "C52" H 7742 3496 50  0000 L CNN
+F 1 "2u2" H 7742 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7650 3450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7650 3450 50  0001 C CNN
+	1    7650 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 3350 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0155
+U 1 1 5CCCB6D8
+P 7950 3550
+F 0 "#PWR0155" H 7950 3300 50  0001 C CNN
+F 1 "GND" H 7955 3377 50  0000 C CNN
+F 2 "" H 7950 3550 50  0001 C CNN
+F 3 "" H 7950 3550 50  0001 C CNN
+	1    7950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C58
+U 1 1 5CCCB6DE
+P 7950 3450
+F 0 "C58" H 8042 3496 50  0000 L CNN
+F 1 "2u2" H 8042 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7950 3450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7950 3450 50  0001 C CNN
+	1    7950 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 3350 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0156
+U 1 1 5CCCB6E5
+P 6750 4150
+F 0 "#PWR0156" H 6750 3900 50  0001 C CNN
+F 1 "GND" H 6755 3977 50  0000 C CNN
+F 2 "" H 6750 4150 50  0001 C CNN
+F 3 "" H 6750 4150 50  0001 C CNN
+	1    6750 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C35
+U 1 1 5CCCB6EB
+P 6750 4050
+F 0 "C35" H 6842 4096 50  0000 L CNN
+F 1 "2u2" H 6842 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6750 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6750 4050 50  0001 C CNN
+	1    6750 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 3950 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0157
+U 1 1 5CCCB6F2
+P 7050 4150
+F 0 "#PWR0157" H 7050 3900 50  0001 C CNN
+F 1 "GND" H 7055 3977 50  0000 C CNN
+F 2 "" H 7050 4150 50  0001 C CNN
+F 3 "" H 7050 4150 50  0001 C CNN
+	1    7050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C41
+U 1 1 5CCCB6F8
+P 7050 4050
+F 0 "C41" H 7142 4096 50  0000 L CNN
+F 1 "2u2" H 7142 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7050 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7050 4050 50  0001 C CNN
+	1    7050 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 3950 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0158
+U 1 1 5CCCB6FF
+P 7350 4150
+F 0 "#PWR0158" H 7350 3900 50  0001 C CNN
+F 1 "GND" H 7355 3977 50  0000 C CNN
+F 2 "" H 7350 4150 50  0001 C CNN
+F 3 "" H 7350 4150 50  0001 C CNN
+	1    7350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C47
+U 1 1 5CCCB705
+P 7350 4050
+F 0 "C47" H 7442 4096 50  0000 L CNN
+F 1 "2u2" H 7442 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7350 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7350 4050 50  0001 C CNN
+	1    7350 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 3950 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0159
+U 1 1 5CCCB70C
+P 7650 4150
+F 0 "#PWR0159" H 7650 3900 50  0001 C CNN
+F 1 "GND" H 7655 3977 50  0000 C CNN
+F 2 "" H 7650 4150 50  0001 C CNN
+F 3 "" H 7650 4150 50  0001 C CNN
+	1    7650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C53
+U 1 1 5CCCB712
+P 7650 4050
+F 0 "C53" H 7742 4096 50  0000 L CNN
+F 1 "2u2" H 7742 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7650 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7650 4050 50  0001 C CNN
+	1    7650 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 3950 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0160
+U 1 1 5CCCB719
+P 7950 4150
+F 0 "#PWR0160" H 7950 3900 50  0001 C CNN
+F 1 "GND" H 7955 3977 50  0000 C CNN
+F 2 "" H 7950 4150 50  0001 C CNN
+F 3 "" H 7950 4150 50  0001 C CNN
+	1    7950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C59
+U 1 1 5CCCB71F
+P 7950 4050
+F 0 "C59" H 8042 4096 50  0000 L CNN
+F 1 "2u2" H 8042 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7950 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7950 4050 50  0001 C CNN
+	1    7950 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 3950 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0161
+U 1 1 5CCCB726
+P 6750 4750
+F 0 "#PWR0161" H 6750 4500 50  0001 C CNN
+F 1 "GND" H 6755 4577 50  0000 C CNN
+F 2 "" H 6750 4750 50  0001 C CNN
+F 3 "" H 6750 4750 50  0001 C CNN
+	1    6750 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C36
+U 1 1 5CCCB72C
+P 6750 4650
+F 0 "C36" H 6842 4696 50  0000 L CNN
+F 1 "2u2" H 6842 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6750 4650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 6750 4650 50  0001 C CNN
+	1    6750 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 4550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0162
+U 1 1 5CCCB733
+P 7050 4750
+F 0 "#PWR0162" H 7050 4500 50  0001 C CNN
+F 1 "GND" H 7055 4577 50  0000 C CNN
+F 2 "" H 7050 4750 50  0001 C CNN
+F 3 "" H 7050 4750 50  0001 C CNN
+	1    7050 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C42
+U 1 1 5CCCB739
+P 7050 4650
+F 0 "C42" H 7142 4696 50  0000 L CNN
+F 1 "2u2" H 7142 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7050 4650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7050 4650 50  0001 C CNN
+	1    7050 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 4550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0163
+U 1 1 5CCCB740
+P 7350 4750
+F 0 "#PWR0163" H 7350 4500 50  0001 C CNN
+F 1 "GND" H 7355 4577 50  0000 C CNN
+F 2 "" H 7350 4750 50  0001 C CNN
+F 3 "" H 7350 4750 50  0001 C CNN
+	1    7350 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C48
+U 1 1 5CCCB746
+P 7350 4650
+F 0 "C48" H 7442 4696 50  0000 L CNN
+F 1 "2u2" H 7442 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7350 4650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7350 4650 50  0001 C CNN
+	1    7350 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 4550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0164
+U 1 1 5CCCB74D
+P 7650 4750
+F 0 "#PWR0164" H 7650 4500 50  0001 C CNN
+F 1 "GND" H 7655 4577 50  0000 C CNN
+F 2 "" H 7650 4750 50  0001 C CNN
+F 3 "" H 7650 4750 50  0001 C CNN
+	1    7650 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C54
+U 1 1 5CCCB753
+P 7650 4650
+F 0 "C54" H 7742 4696 50  0000 L CNN
+F 1 "2u2" H 7742 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7650 4650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7650 4650 50  0001 C CNN
+	1    7650 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 4550 1    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0165
+U 1 1 5CCCB75A
+P 7950 4750
+F 0 "#PWR0165" H 7950 4500 50  0001 C CNN
+F 1 "GND" H 7955 4577 50  0000 C CNN
+F 2 "" H 7950 4750 50  0001 C CNN
+F 3 "" H 7950 4750 50  0001 C CNN
+	1    7950 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C60
+U 1 1 5CCCB760
+P 7950 4650
+F 0 "C60" H 8042 4696 50  0000 L CNN
+F 1 "2u2" H 8042 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7950 4650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M160AB/445-12947-1-ND/3954613" H 7950 4650 50  0001 C CNN
+	1    7950 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 4550 1    50   Input ~ 0
+VIN
 $EndSCHEMATC
