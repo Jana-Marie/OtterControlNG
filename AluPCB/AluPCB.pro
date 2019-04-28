@@ -1,4 +1,4 @@
-update=Sun 28 Apr 2019 05:00:16 PM CEST
+update=Mon 29 Apr 2019 12:23:49 AM CEST
 version=1
 last_client=kicad
 [general]
@@ -63,3 +63,15 @@ SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
 SolderPasteRatio=-0
+[pcbnew/Netclasses]
+[pcbnew/Netclasses/1]
+Name=HV
+Clearance=0.4
+TrackWidth=0.25
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25

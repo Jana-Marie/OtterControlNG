@@ -99,15 +99,15 @@ F 3 "~" H 2750 1500 50  0001 C CNN
 	1    2750 1500
 	1    0    0    -1  
 $EndComp
-Text GLabel 2950 1300 2    50   Input ~ 0
-GUH
 Text GLabel 2950 1400 2    50   Input ~ 0
-GUL
+GUH
 Text GLabel 2950 1500 2    50   Input ~ 0
+GUL
+Text GLabel 2950 1300 2    50   Input ~ 0
 U
 Text GLabel 2950 1600 2    50   Input ~ 0
 IUH
-Text GLabel 2950 1800 2    50   Input ~ 0
+Text GLabel 2950 1700 2    50   Input ~ 0
 IUL
 $Comp
 L Device:R_Small R4
@@ -194,15 +194,15 @@ F 3 "~" H 2350 3350 50  0001 C CNN
 	1    2350 3350
 	1    0    0    -1  
 $EndComp
-Text GLabel 2550 3150 2    50   Input ~ 0
-GVH
 Text GLabel 2550 3250 2    50   Input ~ 0
-GVL
+GVH
 Text GLabel 2550 3350 2    50   Input ~ 0
+GVL
+Text GLabel 2550 3150 2    50   Input ~ 0
 V
 Text GLabel 2550 3450 2    50   Input ~ 0
 IVH
-Text GLabel 2550 3650 2    50   Input ~ 0
+Text GLabel 2550 3550 2    50   Input ~ 0
 IVL
 $Comp
 L Device:R_Small R7
@@ -289,31 +289,16 @@ F 3 "~" H 2300 5200 50  0001 C CNN
 	1    2300 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 2500 5000 2    50   Input ~ 0
-GWH
 Text GLabel 2500 5100 2    50   Input ~ 0
-GWL
+GWH
 Text GLabel 2500 5200 2    50   Input ~ 0
+GWL
+Text GLabel 2500 5000 2    50   Input ~ 0
 W
 Text GLabel 2500 5300 2    50   Input ~ 0
 IWH
-Text GLabel 2500 5500 2    50   Input ~ 0
+Text GLabel 2500 5400 2    50   Input ~ 0
 IWL
-$Comp
-L Device:Thermistor_NTC TH1
-U 1 1 5CC4C81B
-P 2900 3550
-F 0 "TH1" V 2610 3550 50  0000 C CNN
-F 1 "10k" V 2701 3550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2900 3600 50  0001 C CNN
-F 3 "~" H 2900 3600 50  0001 C CNN
-	1    2900 3550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2750 3550 2550 3550
-Wire Wire Line
-	3200 3550 3050 3550
 $Comp
 L Device:Q_NMOS_SGD Q1
 U 1 1 5CC5FFC8
@@ -380,10 +365,6 @@ F 3 "~" H 3900 5450 50  0001 C CNN
 	1    3900 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3200 5400 3200 3550
-Wire Wire Line
-	2500 5400 3200 5400
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5CC8ABCF
@@ -404,17 +385,6 @@ F 1 "MountingHole_Pad" H 800 2008 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 700 2050 50  0001 C CNN
 F 3 "~" H 700 2050 50  0001 C CNN
 	1    700  2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5CC8BD6B
-P 700 2150
-F 0 "#PWR0104" H 700 1900 50  0001 C CNN
-F 1 "GND" H 705 1977 50  0000 C CNN
-F 2 "" H 700 2150 50  0001 C CNN
-F 3 "" H 700 2150 50  0001 C CNN
-	1    700  2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1868,4 +1838,80 @@ F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA5L3X7S2A225M16
 $EndComp
 Text GLabel 7950 4550 1    50   Input ~ 0
 VIN
+$Comp
+L Device:Thermistor_NTC TH1
+U 1 1 5CDFE2AF
+P 1300 3750
+F 0 "TH1" V 1010 3750 50  0000 C CNN
+F 1 "10k" V 1101 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1300 3800 50  0001 C CNN
+F 3 "~" H 1300 3800 50  0001 C CNN
+	1    1300 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 3750 950  3750
+Wire Wire Line
+	1450 3750 1450 3850
+Wire Wire Line
+	1450 3850 950  3850
+$Comp
+L power:GND #PWR0166
+U 1 1 5CE018CC
+P 950 3100
+F 0 "#PWR0166" H 950 2850 50  0001 C CNN
+F 1 "GND" V 955 2972 50  0000 R CNN
+F 2 "" H 950 3100 50  0001 C CNN
+F 3 "" H 950 3100 50  0001 C CNN
+	1    950  3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0167
+U 1 1 5CE0266F
+P 950 3200
+F 0 "#PWR0167" H 950 2950 50  0001 C CNN
+F 1 "GND" V 955 3072 50  0000 R CNN
+F 2 "" H 950 3200 50  0001 C CNN
+F 3 "" H 950 3200 50  0001 C CNN
+	1    950  3200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 950  3550 2    50   Input ~ 0
+VIN
+Text GLabel 950  3650 2    50   Input ~ 0
+VIN
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5CE7A930
+P 750 3200
+F 0 "J4" H 858 3481 50  0000 C CNN
+F 1 "GND" H 858 3390 50  0000 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical_SMD_Pin1Left" H 750 3200 50  0001 C CNN
+F 3 "~" H 750 3200 50  0001 C CNN
+	1    750  3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J5
+U 1 1 5CE7B946
+P 750 3650
+F 0 "J5" H 858 3931 50  0000 C CNN
+F 1 "VIN" H 858 3840 50  0000 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical_SMD_Pin1Left" H 750 3650 50  0001 C CNN
+F 3 "~" H 750 3650 50  0001 C CNN
+	1    750  3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0168
+U 1 1 5CE7D54B
+P 950 3300
+F 0 "#PWR0168" H 950 3050 50  0001 C CNN
+F 1 "GND" V 955 3172 50  0000 R CNN
+F 2 "" H 950 3300 50  0001 C CNN
+F 3 "" H 950 3300 50  0001 C CNN
+	1    950  3300
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
