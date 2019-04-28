@@ -1,0 +1,394 @@
+EESchema Schematic File Version 4
+LIBS:AluPCB-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NMOS_GDS Q1
+U 1 1 5CC448A9
+P 3900 1250
+F 0 "Q1" H 4106 1296 50  0000 L CNN
+F 1 "nfet" H 4106 1205 50  0000 L CNN
+F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 1350 50  0001 C CNN
+F 3 "~" H 3900 1250 50  0001 C CNN
+	1    3900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q2
+U 1 1 5CC449D4
+P 3900 1750
+F 0 "Q2" H 4106 1796 50  0000 L CNN
+F 1 "nfet" H 4106 1705 50  0000 L CNN
+F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 1850 50  0001 C CNN
+F 3 "~" H 3900 1750 50  0001 C CNN
+	1    3900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5CC44E37
+P 4000 2150
+F 0 "R1" H 3942 2196 50  0000 R CNN
+F 1 "R001" H 3942 2105 50  0000 R CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" H 4000 2150 50  0001 C CNN
+F 3 "~" H 4000 2150 50  0001 C CNN
+	1    4000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5CC45069
+P 4000 2350
+F 0 "#PWR0101" H 4000 2100 50  0001 C CNN
+F 1 "GND" H 4005 2177 50  0000 C CNN
+F 2 "" H 4000 2350 50  0001 C CNN
+F 3 "" H 4000 2350 50  0001 C CNN
+	1    4000 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2350 4000 2300
+Wire Wire Line
+	4000 2050 4000 2000
+Wire Wire Line
+	4000 1550 4000 1450
+Wire Wire Line
+	4000 1050 4000 1000
+Text GLabel 4000 1000 1    50   Input ~ 0
+Vin
+Text GLabel 3700 1250 0    50   Input ~ 0
+GUH
+Text GLabel 3700 1750 0    50   Input ~ 0
+GUL
+Text GLabel 4000 1500 2    50   Input ~ 0
+U
+$Comp
+L Device:R_Small R2
+U 1 1 5CC45D9F
+P 4300 2000
+F 0 "R2" V 4104 2000 50  0000 C CNN
+F 1 "100" V 4195 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 2000 50  0001 C CNN
+F 3 "~" H 4300 2000 50  0001 C CNN
+	1    4300 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5CC45F75
+P 4300 2300
+F 0 "R3" V 4104 2300 50  0000 C CNN
+F 1 "100" V 4195 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 2300 50  0001 C CNN
+F 3 "~" H 4300 2300 50  0001 C CNN
+	1    4300 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 2300 4000 2300
+Connection ~ 4000 2300
+Wire Wire Line
+	4000 2300 4000 2250
+Wire Wire Line
+	4000 2000 4200 2000
+Connection ~ 4000 2000
+Wire Wire Line
+	4000 2000 4000 1950
+Text GLabel 4400 2000 2    50   Input ~ 0
+IUH
+Text GLabel 4400 2300 2    50   Input ~ 0
+IUL
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 5CC47411
+P 2750 1500
+F 0 "J1" H 2858 1881 50  0000 C CNN
+F 1 "CON_U" H 2858 1790 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical_SMD_Pin1Right" H 2750 1500 50  0001 C CNN
+F 3 "~" H 2750 1500 50  0001 C CNN
+	1    2750 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2950 1300 2    50   Input ~ 0
+GUH
+Text GLabel 2950 1400 2    50   Input ~ 0
+GUL
+Text GLabel 2950 1500 2    50   Input ~ 0
+U
+Text GLabel 2950 1700 2    50   Input ~ 0
+IUH
+Text GLabel 2950 1800 2    50   Input ~ 0
+IUL
+$Comp
+L Device:Q_NMOS_GDS Q3
+U 1 1 5CC4FA51
+P 3900 3100
+F 0 "Q3" H 4106 3146 50  0000 L CNN
+F 1 "nfet" H 4106 3055 50  0000 L CNN
+F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 3200 50  0001 C CNN
+F 3 "~" H 3900 3100 50  0001 C CNN
+	1    3900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q4
+U 1 1 5CC4FA57
+P 3900 3600
+F 0 "Q4" H 4106 3646 50  0000 L CNN
+F 1 "nfet" H 4106 3555 50  0000 L CNN
+F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 3700 50  0001 C CNN
+F 3 "~" H 3900 3600 50  0001 C CNN
+	1    3900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5CC4FA5D
+P 4000 4000
+F 0 "R4" H 3942 4046 50  0000 R CNN
+F 1 "R001" H 3942 3955 50  0000 R CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" H 4000 4000 50  0001 C CNN
+F 3 "~" H 4000 4000 50  0001 C CNN
+	1    4000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CC4FA63
+P 4000 4200
+F 0 "#PWR0102" H 4000 3950 50  0001 C CNN
+F 1 "GND" H 4005 4027 50  0000 C CNN
+F 2 "" H 4000 4200 50  0001 C CNN
+F 3 "" H 4000 4200 50  0001 C CNN
+	1    4000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4200 4000 4150
+Wire Wire Line
+	4000 3900 4000 3850
+Wire Wire Line
+	4000 3400 4000 3300
+Wire Wire Line
+	4000 2900 4000 2850
+Text GLabel 4000 2850 1    50   Input ~ 0
+Vin
+Text GLabel 3700 3100 0    50   Input ~ 0
+GVH
+Text GLabel 3700 3600 0    50   Input ~ 0
+GVL
+Text GLabel 4000 3350 2    50   Input ~ 0
+V
+$Comp
+L Device:R_Small R5
+U 1 1 5CC4FA71
+P 4300 3850
+F 0 "R5" V 4104 3850 50  0000 C CNN
+F 1 "100" V 4195 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 3850 50  0001 C CNN
+F 3 "~" H 4300 3850 50  0001 C CNN
+	1    4300 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5CC4FA77
+P 4300 4150
+F 0 "R6" V 4104 4150 50  0000 C CNN
+F 1 "100" V 4195 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 4150 50  0001 C CNN
+F 3 "~" H 4300 4150 50  0001 C CNN
+	1    4300 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 4150 4000 4150
+Connection ~ 4000 4150
+Wire Wire Line
+	4000 4150 4000 4100
+Wire Wire Line
+	4000 3850 4200 3850
+Connection ~ 4000 3850
+Wire Wire Line
+	4000 3850 4000 3800
+Text GLabel 4400 3850 2    50   Input ~ 0
+IVH
+Text GLabel 4400 4150 2    50   Input ~ 0
+IVL
+$Comp
+L Connector:Conn_01x06_Male J2
+U 1 1 5CC4FA85
+P 2350 3350
+F 0 "J2" H 2458 3731 50  0000 C CNN
+F 1 "CON_U" H 2458 3640 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical_SMD_Pin1Right" H 2350 3350 50  0001 C CNN
+F 3 "~" H 2350 3350 50  0001 C CNN
+	1    2350 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 3150 2    50   Input ~ 0
+GVH
+Text GLabel 2550 3250 2    50   Input ~ 0
+GVL
+Text GLabel 2550 3350 2    50   Input ~ 0
+V
+Text GLabel 2550 3550 2    50   Input ~ 0
+IVH
+Text GLabel 2550 3650 2    50   Input ~ 0
+IVL
+$Comp
+L Device:Q_NMOS_GDS Q5
+U 1 1 5CC50EEF
+P 3900 4950
+F 0 "Q5" H 4106 4996 50  0000 L CNN
+F 1 "nfet" H 4106 4905 50  0000 L CNN
+F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 5050 50  0001 C CNN
+F 3 "~" H 3900 4950 50  0001 C CNN
+	1    3900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q6
+U 1 1 5CC50EF5
+P 3900 5450
+F 0 "Q6" H 4106 5496 50  0000 L CNN
+F 1 "nfet" H 4106 5405 50  0000 L CNN
+F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 4100 5550 50  0001 C CNN
+F 3 "~" H 3900 5450 50  0001 C CNN
+	1    3900 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5CC50EFB
+P 4000 5850
+F 0 "R7" H 3942 5896 50  0000 R CNN
+F 1 "R001" H 3942 5805 50  0000 R CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" H 4000 5850 50  0001 C CNN
+F 3 "~" H 4000 5850 50  0001 C CNN
+	1    4000 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CC50F01
+P 4000 6050
+F 0 "#PWR0103" H 4000 5800 50  0001 C CNN
+F 1 "GND" H 4005 5877 50  0000 C CNN
+F 2 "" H 4000 6050 50  0001 C CNN
+F 3 "" H 4000 6050 50  0001 C CNN
+	1    4000 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 6050 4000 6000
+Wire Wire Line
+	4000 5750 4000 5700
+Wire Wire Line
+	4000 5250 4000 5150
+Wire Wire Line
+	4000 4750 4000 4700
+Text GLabel 4000 4700 1    50   Input ~ 0
+Vin
+Text GLabel 3700 4950 0    50   Input ~ 0
+GWH
+Text GLabel 3700 5450 0    50   Input ~ 0
+GWL
+Text GLabel 4000 5200 2    50   Input ~ 0
+W
+$Comp
+L Device:R_Small R8
+U 1 1 5CC50F0F
+P 4300 5700
+F 0 "R8" V 4104 5700 50  0000 C CNN
+F 1 "100" V 4195 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 5700 50  0001 C CNN
+F 3 "~" H 4300 5700 50  0001 C CNN
+	1    4300 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 5CC50F15
+P 4300 6000
+F 0 "R9" V 4104 6000 50  0000 C CNN
+F 1 "100" V 4195 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 6000 50  0001 C CNN
+F 3 "~" H 4300 6000 50  0001 C CNN
+	1    4300 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 6000 4000 6000
+Connection ~ 4000 6000
+Wire Wire Line
+	4000 6000 4000 5950
+Wire Wire Line
+	4000 5700 4200 5700
+Connection ~ 4000 5700
+Wire Wire Line
+	4000 5700 4000 5650
+Text GLabel 4400 5700 2    50   Input ~ 0
+IWH
+Text GLabel 4400 6000 2    50   Input ~ 0
+IWL
+$Comp
+L Connector:Conn_01x06_Male J3
+U 1 1 5CC50F23
+P 2750 5200
+F 0 "J3" H 2858 5581 50  0000 C CNN
+F 1 "CON_U" H 2858 5490 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical_SMD_Pin1Right" H 2750 5200 50  0001 C CNN
+F 3 "~" H 2750 5200 50  0001 C CNN
+	1    2750 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2950 5000 2    50   Input ~ 0
+GWH
+Text GLabel 2950 5100 2    50   Input ~ 0
+GWL
+Text GLabel 2950 5200 2    50   Input ~ 0
+W
+Text GLabel 2950 5400 2    50   Input ~ 0
+IWH
+Text GLabel 2950 5500 2    50   Input ~ 0
+IWL
+$Comp
+L Device:Thermistor_NTC TH?
+U 1 1 5CC4C81B
+P 2900 3450
+F 0 "TH?" V 2610 3450 50  0000 C CNN
+F 1 "10k" V 2701 3450 50  0000 C CNN
+F 2 "" H 2900 3500 50  0001 C CNN
+F 3 "~" H 2900 3500 50  0001 C CNN
+	1    2900 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 3450 2550 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5CC4DD44
+P 3200 3450
+F 0 "#PWR?" H 3200 3200 50  0001 C CNN
+F 1 "GND" H 3205 3277 50  0000 C CNN
+F 2 "" H 3200 3450 50  0001 C CNN
+F 3 "" H 3200 3450 50  0001 C CNN
+	1    3200 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3450 3050 3450
+$EndSCHEMATC
