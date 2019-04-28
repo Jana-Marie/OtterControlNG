@@ -940,4 +940,6 @@ F 3 "" H 7050 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7050 1450
+Text Notes 8050 4150 0    50   ~ 0
+NTC Spannungsteiler fixen\n
 $EndSCHEMATC
