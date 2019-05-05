@@ -1841,20 +1841,20 @@ VIN
 $Comp
 L Device:Thermistor_NTC TH1
 U 1 1 5CDFE2AF
-P 1300 3750
-F 0 "TH1" V 1010 3750 50  0000 C CNN
-F 1 "10k" V 1101 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1300 3800 50  0001 C CNN
-F 3 "~" H 1300 3800 50  0001 C CNN
-	1    1300 3750
+P 1300 3650
+F 0 "TH1" V 1010 3650 50  0000 C CNN
+F 1 "10k" V 1101 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1300 3700 50  0001 C CNN
+F 3 "~" H 1300 3700 50  0001 C CNN
+	1    1300 3650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1150 3750 950  3750
+	1150 3650 950  3650
 Wire Wire Line
-	1450 3750 1450 3850
+	1450 3650 1450 3750
 Wire Wire Line
-	1450 3850 950  3850
+	1450 3750 950  3750
 $Comp
 L power:GND #PWR0166
 U 1 1 5CE018CC
@@ -1877,9 +1877,7 @@ F 3 "" H 950 3200 50  0001 C CNN
 	1    950  3200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 950  3550 2    50   Input ~ 0
-VIN
-Text GLabel 950  3650 2    50   Input ~ 0
+Text GLabel 950  3850 2    50   Input ~ 0
 VIN
 $Comp
 L Connector:Conn_01x03_Male J4
@@ -1893,17 +1891,6 @@ F 3 "~" H 750 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J5
-U 1 1 5CE7B946
-P 750 3650
-F 0 "J5" H 858 3931 50  0000 C CNN
-F 1 "VIN" H 858 3840 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical_SMD_Pin1Left" H 750 3650 50  0001 C CNN
-F 3 "~" H 750 3650 50  0001 C CNN
-	1    750  3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0168
 U 1 1 5CE7D54B
 P 950 3300
@@ -1913,5 +1900,16 @@ F 2 "" H 950 3300 50  0001 C CNN
 F 3 "" H 950 3300 50  0001 C CNN
 	1    950  3300
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 5CCA217B
+P 750 3750
+F 0 "J5" H 858 4031 50  0000 C CNN
+F 1 "VIN" H 858 3940 50  0000 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical_SMD_Pin1Left" H 750 3750 50  0001 C CNN
+F 3 "~" H 750 3750 50  0001 C CNN
+	1    750  3750
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
