@@ -14,56 +14,50 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 7050 1650 3    50   Input ~ 0
-HALL1
-Text GLabel 6950 1650 3    50   Input ~ 0
-HALL2
-Text GLabel 6850 1650 3    50   Input ~ 0
-HALL3
 $Comp
 L Device:R_Small R?
 U 1 1 5D5B747D
-P 7050 1550
+P 5900 4050
 AR Path="/5D5B747D" Ref="R?"  Part="1" 
 AR Path="/5D59ABFE/5D5B747D" Ref="R35"  Part="1" 
-F 0 "R35" H 7000 1000 50  0000 L CNN
-F 1 "1k" H 7000 1100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7050 1550 50  0001 C CNN
-F 3 "~" H 7050 1550 50  0001 C CNN
-	1    7050 1550
-	1    0    0    -1  
+F 0 "R35" H 5958 4004 50  0000 L CNN
+F 1 "1k" H 5958 4095 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 4050 50  0001 C CNN
+F 3 "~" H 5900 4050 50  0001 C CNN
+	1    5900 4050
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5D5B7483
-P 6950 1550
+P 6000 4050
 AR Path="/5D5B7483" Ref="R?"  Part="1" 
 AR Path="/5D59ABFE/5D5B7483" Ref="R34"  Part="1" 
-F 0 "R34" H 6900 1000 50  0000 L CNN
-F 1 "1k" H 6900 1100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6950 1550 50  0001 C CNN
-F 3 "~" H 6950 1550 50  0001 C CNN
-	1    6950 1550
-	1    0    0    -1  
+F 0 "R34" H 6100 4400 50  0000 R CNN
+F 1 "1k" H 6050 4250 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6000 4050 50  0001 C CNN
+F 3 "~" H 6000 4050 50  0001 C CNN
+	1    6000 4050
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5D5B7489
-P 6850 1550
+P 6100 4050
 AR Path="/5D5B7489" Ref="R?"  Part="1" 
 AR Path="/5D59ABFE/5D5B7489" Ref="R33"  Part="1" 
-F 0 "R33" H 6800 1000 50  0000 L CNN
-F 1 "1k" H 6800 1100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6850 1550 50  0001 C CNN
-F 3 "~" H 6850 1550 50  0001 C CNN
-	1    6850 1550
-	1    0    0    -1  
+F 0 "R33" H 6041 4004 50  0000 R CNN
+F 1 "1k" H 6041 4095 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6100 4050 50  0001 C CNN
+F 3 "~" H 6100 4050 50  0001 C CNN
+	1    6100 4050
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6850 1450 6950 1450
-Connection ~ 6950 1450
+	6100 4150 6000 4150
+Connection ~ 6000 4150
 Wire Wire Line
-	6950 1450 7050 1450
+	6000 4150 5900 4150
 $Comp
 L Device:R_Small R?
 U 1 1 5D5B7493
@@ -298,45 +292,6 @@ Text GLabel 4650 1350 1    50   Input ~ 0
 U
 Text GLabel 4350 1600 0    50   Input ~ 0
 UU
-Text GLabel 7550 1400 1    50   Input ~ 0
-NTC_FET
-$Comp
-L Device:R_Small R?
-U 1 1 5D5B7503
-P 7550 1550
-AR Path="/5D5B7503" Ref="R?"  Part="1" 
-AR Path="/5D59ABFE/5D5B7503" Ref="R38"  Part="1" 
-F 0 "R38" H 7400 1600 50  0000 L CNN
-F 1 "100" H 7350 1500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7550 1550 50  0001 C CNN
-F 3 "~" H 7550 1550 50  0001 C CNN
-	1    7550 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7550 1450 7400 1450
-Wire Wire Line
-	7400 1450 7400 1400
-$Comp
-L Device:R_Small R?
-U 1 1 5D5B750B
-P 7400 1300
-AR Path="/5D5B750B" Ref="R?"  Part="1" 
-AR Path="/5D59ABFE/5D5B750B" Ref="R37"  Part="1" 
-F 0 "R37" H 7342 1346 50  0000 R CNN
-F 1 "1k" H 7342 1255 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7400 1300 50  0001 C CNN
-F 3 "~" H 7400 1300 50  0001 C CNN
-	1    7400 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7550 1400 7550 1450
-Connection ~ 7550 1450
-Text GLabel 7400 1200 1    50   Input ~ 0
-VIO
-Text GLabel 7550 1650 3    50   Input ~ 0
-NTC_FET_PAC
 Text GLabel 3700 1600 1    50   Input ~ 0
 CANH
 Text GLabel 3700 1800 3    50   Input ~ 0
@@ -352,23 +307,6 @@ F 1 "60" H 3759 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 1700 50  0001 C CNN
 F 3 "~" H 3700 1700 50  0001 C CNN
 	1    3700 1700
-	1    0    0    -1  
-$EndComp
-Text GLabel 3950 1800 3    50   Input ~ 0
-RS485_A
-Text GLabel 3950 1600 1    50   Input ~ 0
-RS485_B
-$Comp
-L Device:R_Small R?
-U 1 1 5D5B7527
-P 3950 1700
-AR Path="/5D5B7527" Ref="R?"  Part="1" 
-AR Path="/5D59ABFE/5D5B7527" Ref="R20"  Part="1" 
-F 0 "R20" H 4009 1746 50  0000 L CNN
-F 1 "120" H 4009 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3950 1700 50  0001 C CNN
-F 3 "~" H 3950 1700 50  0001 C CNN
-	1    3950 1700
 	1    0    0    -1  
 $EndComp
 Text GLabel 3350 1600 1    50   Input ~ 0
@@ -469,36 +407,10 @@ Text GLabel 2450 3700 3    50   Input ~ 0
 CANL
 Text GLabel 2450 3600 1    50   Input ~ 0
 CANH
-$Comp
-L power:+5V #PWR?
-U 1 1 5D5B7567
-P 6450 3050
-AR Path="/5D5B7567" Ref="#PWR?"  Part="1" 
-AR Path="/5D59ABFE/5D5B7567" Ref="#PWR0133"  Part="1" 
-F 0 "#PWR0133" H 6450 2900 50  0001 C CNN
-F 1 "+5V" V 6465 3178 50  0000 L CNN
-F 2 "" H 6450 3050 50  0001 C CNN
-F 3 "" H 6450 3050 50  0001 C CNN
-	1    6450 3050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6200 3800 6200 3700
 Wire Wire Line
 	6200 3200 6200 3300
-$Comp
-L Jumper:Jumper_3_Bridged12 JP?
-U 1 1 5D5B756F
-P 6200 3050
-AR Path="/5D5B756F" Ref="JP?"  Part="1" 
-AR Path="/5D59ABFE/5D5B756F" Ref="JP4"  Part="1" 
-F 0 "JP4" H 6200 3254 50  0000 C CNN
-F 1 "HALL_V" H 6200 3163 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 6200 3050 50  0001 C CNN
-F 3 "~" H 6200 3050 50  0001 C CNN
-	1    6200 3050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D5B7575
@@ -515,48 +427,46 @@ $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5D5B757B
-P 6100 3500
+P 5750 3500
 AR Path="/5D5B757B" Ref="R?"  Part="1" 
 AR Path="/5D59ABFE/5D5B757B" Ref="R28"  Part="1" 
-F 0 "R28" V 6050 3050 50  0000 C CNN
-F 1 "100" V 6150 3050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6100 3500 50  0001 C CNN
-F 3 "~" H 6100 3500 50  0001 C CNN
-	1    6100 3500
+F 0 "R28" V 5700 3050 50  0000 C CNN
+F 1 "100" V 5800 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5750 3500 50  0001 C CNN
+F 3 "~" H 5750 3500 50  0001 C CNN
+	1    5750 3500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5D5B7581
-P 6100 3400
+P 5750 3400
 AR Path="/5D5B7581" Ref="R?"  Part="1" 
 AR Path="/5D59ABFE/5D5B7581" Ref="R27"  Part="1" 
-F 0 "R27" V 5904 3400 50  0000 C CNN
-F 1 "100" V 5995 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6100 3400 50  0001 C CNN
-F 3 "~" H 6100 3400 50  0001 C CNN
-	1    6100 3400
+F 0 "R27" V 5554 3400 50  0000 C CNN
+F 1 "100" V 5645 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5750 3400 50  0001 C CNN
+F 3 "~" H 5750 3400 50  0001 C CNN
+	1    5750 3400
 	0    1    1    0   
 $EndComp
-Text GLabel 5950 3050 0    50   Input ~ 0
-VIO
-Text GLabel 6000 3600 0    50   Input ~ 0
+Text GLabel 5650 3600 0    50   Input ~ 0
 HALL3
-Text GLabel 6000 3500 0    50   Input ~ 0
+Text GLabel 5650 3500 0    50   Input ~ 0
 HALL2
-Text GLabel 6000 3400 0    50   Input ~ 0
+Text GLabel 5650 3400 0    50   Input ~ 0
 HALL1
 $Comp
 L Device:R_Small R?
 U 1 1 5D5B758B
-P 6100 3600
+P 5750 3600
 AR Path="/5D5B758B" Ref="R?"  Part="1" 
 AR Path="/5D59ABFE/5D5B758B" Ref="R29"  Part="1" 
-F 0 "R29" V 6204 3600 50  0000 C CNN
-F 1 "100" V 6295 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6100 3600 50  0001 C CNN
-F 3 "~" H 6100 3600 50  0001 C CNN
-	1    6100 3600
+F 0 "R29" V 5854 3600 50  0000 C CNN
+F 1 "100" V 5945 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5750 3600 50  0001 C CNN
+F 3 "~" H 5750 3600 50  0001 C CNN
+	1    5750 3600
 	0    1    1    0   
 $EndComp
 $Comp
@@ -572,8 +482,6 @@ F 3 "" H 3350 3050 50  0001 C CNN
 	1    3350 3050
 	0    1    1    0   
 $EndComp
-Text GLabel 2850 3050 0    50   Input ~ 0
-VIO
 Wire Wire Line
 	3150 3500 3100 3500
 $Comp
@@ -607,9 +515,9 @@ $EndComp
 Text GLabel 2350 3600 1    50   Input ~ 0
 RS485_A
 Text GLabel 2100 3700 0    50   Input ~ 0
-UART_TX
+CANRX
 Text GLabel 2100 3600 0    50   Input ~ 0
-UART_RX
+CANTX
 Text GLabel 2350 3700 3    50   Input ~ 0
 RS485_B
 $Comp
@@ -799,18 +707,6 @@ F 3 "" H 3350 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0148
-U 1 1 5D60DF02
-P 7050 1450
-F 0 "#PWR0148" H 7050 1300 50  0001 C CNN
-F 1 "+5V" H 7065 1623 50  0000 C CNN
-F 2 "" H 7050 1450 50  0001 C CNN
-F 3 "" H 7050 1450 50  0001 C CNN
-	1    7050 1450
-	1    0    0    -1  
-$EndComp
-Connection ~ 7050 1450
-$Comp
 L Connector:Conn_01x03_Male J4
 U 1 1 5CCE2711
 P 4800 4600
@@ -914,8 +810,6 @@ Text GLabel 4100 5200 0    50   Input ~ 0
 NTC
 Wire Wire Line
 	4300 5200 4500 5200
-Text GLabel 4500 5400 3    50   Input ~ 0
-VIO
 $Comp
 L Device:R_Small R?
 U 1 1 5CD2DFA2
@@ -952,4 +846,133 @@ Wire Wire Line
 Connection ~ 8500 3650
 Wire Wire Line
 	8500 3650 8650 3650
+$Comp
+L Device:R_Small R?
+U 1 1 5CD0C6EB
+P 5650 5200
+AR Path="/5CD0C6EB" Ref="R?"  Part="1" 
+AR Path="/5D59ABFE/5CD0C6EB" Ref="R45"  Part="1" 
+F 0 "R45" V 5454 5200 50  0000 C CNN
+F 1 "100" V 5545 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5650 5200 50  0001 C CNN
+F 3 "~" H 5650 5200 50  0001 C CNN
+	1    5650 5200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5550 5200 0    50   Input ~ 0
+AIN
+$Comp
+L power:GND #PWR?
+U 1 1 5CD0C6F8
+P 6200 5400
+AR Path="/5CD0C6F8" Ref="#PWR?"  Part="1" 
+AR Path="/5D59ABFE/5CD0C6F8" Ref="#PWR0178"  Part="1" 
+F 0 "#PWR0178" H 6200 5150 50  0001 C CNN
+F 1 "GND" H 6205 5227 50  0000 C CNN
+F 2 "" H 6200 5400 50  0001 C CNN
+F 3 "" H 6200 5400 50  0001 C CNN
+	1    6200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CD0C6FE
+P 6000 5100
+AR Path="/5CD0C6FE" Ref="#PWR?"  Part="1" 
+AR Path="/5D59ABFE/5CD0C6FE" Ref="#PWR0179"  Part="1" 
+F 0 "#PWR0179" H 6000 4850 50  0001 C CNN
+F 1 "GND" H 6005 4927 50  0000 C CNN
+F 2 "" H 6000 5100 50  0001 C CNN
+F 3 "" H 6000 5100 50  0001 C CNN
+	1    6000 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CD0C705
+P 5850 5300
+AR Path="/5CD0C705" Ref="R?"  Part="1" 
+AR Path="/5D59ABFE/5CD0C705" Ref="R46"  Part="1" 
+F 0 "R46" H 5900 5750 50  0000 R CNN
+F 1 "1k" H 5900 5650 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5850 5300 50  0001 C CNN
+F 3 "~" H 5850 5300 50  0001 C CNN
+	1    5850 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5750 5200 5850 5200
+Connection ~ 5850 5200
+Wire Wire Line
+	5850 5200 6000 5200
+$Comp
+L Device:R_Small R?
+U 1 1 5CD0D4FA
+P 5950 5300
+AR Path="/5CD0D4FA" Ref="R?"  Part="1" 
+AR Path="/5D59ABFE/5CD0D4FA" Ref="R47"  Part="1" 
+F 0 "R47" H 6000 5750 50  0000 R CNN
+F 1 "1k" H 6000 5650 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 5300 50  0001 C CNN
+F 3 "~" H 5950 5300 50  0001 C CNN
+	1    5950 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0180
+U 1 1 5CD0E36D
+P 5950 5400
+F 0 "#PWR0180" H 5950 5150 50  0001 C CNN
+F 1 "GND" H 5955 5227 50  0000 C CNN
+F 2 "" H 5950 5400 50  0001 C CNN
+F 3 "" H 5950 5400 50  0001 C CNN
+	1    5950 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x03_MountingPin J?
+U 1 1 5CD10818
+P 6200 5100
+AR Path="/5CD10818" Ref="J?"  Part="1" 
+AR Path="/5D59ABFE/5CD10818" Ref="J9"  Part="1" 
+F 0 "J9" H 6288 5064 50  0000 L CNN
+F 1 "LED" H 6288 4973 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal" H 6200 5100 50  0001 C CNN
+F 3 "~" H 6200 5100 50  0001 C CNN
+	1    6200 5100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 3050 0    50   Input ~ 0
+VIO
+Text GLabel 6200 3200 1    50   Input ~ 0
+VIO
+Text GLabel 6000 5000 0    50   Input ~ 0
+VIO
+Text GLabel 5850 5400 3    50   Input ~ 0
+3V3
+Text GLabel 4500 5400 3    50   Input ~ 0
+VIO
+Text GLabel 5900 4150 3    50   Input ~ 0
+VIO
+Wire Wire Line
+	5900 3950 5900 3400
+Wire Wire Line
+	6000 3500 6000 3950
+Wire Wire Line
+	6200 3500 6000 3500
+Wire Wire Line
+	6100 3950 6100 3600
+Wire Wire Line
+	6100 3600 6200 3600
+Wire Wire Line
+	5850 3400 5900 3400
+Connection ~ 5900 3400
+Wire Wire Line
+	5900 3400 6200 3400
+Wire Wire Line
+	5850 3500 6000 3500
+Connection ~ 6000 3500
+Wire Wire Line
+	5850 3600 6100 3600
+Connection ~ 6100 3600
 $EndSCHEMATC

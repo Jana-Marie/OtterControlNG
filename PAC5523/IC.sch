@@ -211,7 +211,7 @@ U 1 1 5D5D386D
 P 2550 1800
 F 0 "D17" H 2550 2005 50  0000 C CNN
 F 1 "SS310" H 2550 1914 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" V 2550 1800 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" V 2550 1800 50  0001 C CNN
 F 3 "~" V 2550 1800 50  0001 C CNN
 	1    2550 1800
 	0    1    1    0   
@@ -430,10 +430,6 @@ Text GLabel 6200 4650 0    50   Input ~ 0
 RS485RXTX
 Wire Wire Line
 	6200 4550 6200 4650
-Text GLabel 6200 4750 0    50   Input ~ 0
-UART_RX
-Text GLabel 6200 4450 0    50   Input ~ 0
-UART_TX
 $Comp
 L otter:RS485 U6
 U 1 1 5D5D38ED
@@ -445,13 +441,13 @@ F 3 "" H 6500 4850 50  0001 C CNN
 	1    6500 4600
 	1    0    0    -1  
 $EndComp
-Text GLabel 9550 4550 2    50   Input ~ 0
-SWDCL
-Text GLabel 9550 4650 2    50   Input ~ 0
-SWDIO
-Text GLabel 9550 3450 2    50   Input ~ 0
-NTC
 Text GLabel 9550 3350 2    50   Input ~ 0
+SWDCL
+Text GLabel 9550 3450 2    50   Input ~ 0
+SWDIO
+Text GLabel 8950 3250 0    50   Input ~ 0
+NTC
+Text GLabel 9550 4550 2    50   Input ~ 0
 Ain
 $Comp
 L power:GND #PWR0165
@@ -464,10 +460,6 @@ F 3 "" H 8950 3450 50  0001 C CNN
 	1    8950 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 8950 4450 0    50   Input ~ 0
-UART_RX
-Text GLabel 8950 4550 0    50   Input ~ 0
-UART_TX
 $Comp
 L power:GND #PWR0166
 U 1 1 5D5D3901
@@ -492,9 +484,9 @@ F 3 "" H 8950 4050 50  0001 C CNN
 $EndComp
 Text GLabel 8950 3850 0    50   Input ~ 0
 HALL3
-Text GLabel 9550 4050 2    50   Input ~ 0
-HALL2
 Text GLabel 9550 3950 2    50   Input ~ 0
+HALL2
+Text GLabel 9550 4050 2    50   Input ~ 0
 HALL1
 $Comp
 L power:+5V #PWR0168
@@ -566,4 +558,12 @@ Text GLabel 2350 3700 0    50   Input ~ 0
 CANRX
 Text GLabel 2350 3600 0    50   Input ~ 0
 CANTX
+Text GLabel 8950 4450 0    50   Input ~ 0
+CANRX
+Text GLabel 8950 4550 0    50   Input ~ 0
+CANTX
+Text GLabel 6200 4750 0    50   Input ~ 0
+CANTX
+Text GLabel 6200 4450 0    50   Input ~ 0
+CANRX
 $EndSCHEMATC
