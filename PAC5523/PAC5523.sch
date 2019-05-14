@@ -793,7 +793,7 @@ IUL
 Text GLabel 1650 3850 0    50   Input ~ 0
 IUH
 Text Notes 3700 1200 0    50   ~ 0
-Todo:\nOszillator\nNTC mergen\nEncoder\n
+Todo:\nOszillator\n
 $Comp
 L Connector:Conn_01x06_Male J2
 U 1 1 5CC60DBB
@@ -1103,7 +1103,7 @@ F 3 "~" V 5800 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 2050 5800 2050
-Text GLabel 2800 2000 1    50   Input ~ 0
+Text GLabel 2400 2000 1    50   Input ~ 0
 SWDIO
 Text GLabel 2900 2000 1    50   Input ~ 0
 SWDCL
@@ -1125,14 +1125,10 @@ Text GLabel 3550 3950 2    50   Input ~ 0
 3V3
 Text GLabel 2500 2000 1    50   Input ~ 0
 Vin_mon
-Text GLabel 2400 2000 1    50   Input ~ 0
-NTC_EXT
 Text GLabel 3550 4150 2    50   Input ~ 0
 VCORE
 Text GLabel 3550 4250 2    50   Input ~ 0
 VCC18
-Text GLabel 2300 2000 1    50   Input ~ 0
-NTC
 Text GLabel 6000 2550 2    50   Input ~ 0
 CSM
 Wire Wire Line
@@ -1199,11 +1195,9 @@ Wire Wire Line
 Connection ~ 5500 1650
 Text GLabel 2550 4650 3    50   Input ~ 0
 RS485RXTX
-Text GLabel 1350 4900 3    50   Input ~ 0
-ENC_ID
-Text GLabel 1450 4900 3    50   Input ~ 0
+Text GLabel 2800 2000 1    50   Input ~ 0
 ENC_A
-Text GLabel 1550 4900 3    50   Input ~ 0
+Text GLabel 2700 2000 1    50   Input ~ 0
 ENC_B
 Text GLabel 2950 4650 3    50   Input ~ 0
 SK6812
@@ -1637,4 +1631,33 @@ F 3 "" H 6650 4850 50  0001 C CNN
 	1    6650 4850
 	1    0    0    -1  
 $EndComp
+Text GLabel 2300 2000 1    50   Input ~ 0
+NTC_IO
+$Comp
+L Oscillator:ASCO X?
+U 1 1 5CE0A013
+P 2000 5650
+F 0 "X?" H 2450 5750 50  0000 L CNN
+F 1 "ASCO" H 2450 5550 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm" H 2100 5300 50  0001 C CNN
+F 3 "https://abracon.com/Oscillators/ASCO.pdf" H 1775 5775 50  0001 C CNN
+	1    2000 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 5650 2    50   Input ~ 0
+CLK
+Text GLabel 2000 5350 1    50   Input ~ 0
+VIO
+$Comp
+L power:GND #PWR?
+U 1 1 5CE19C05
+P 2000 5950
+F 0 "#PWR?" H 2000 5700 50  0001 C CNN
+F 1 "GND" H 2005 5777 50  0000 C CNN
+F 2 "" H 2000 5950 50  0001 C CNN
+F 3 "" H 2000 5950 50  0001 C CNN
+	1    2000 5950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1600 5650
 $EndSCHEMATC
