@@ -48,7 +48,7 @@ Text GLabel 4000 1000 1    50   Input ~ 0
 VIN
 Text GLabel 3700 1250 0    50   Input ~ 0
 GUH
-Text GLabel 3700 1750 0    50   Input ~ 0
+Text GLabel 3650 1750 0    50   Input ~ 0
 GUL
 Text GLabel 4000 1500 2    50   Input ~ 0
 U
@@ -58,7 +58,7 @@ U 1 1 5CC45D9F
 P 4300 2000
 F 0 "R2" V 4104 2000 50  0000 C CNN
 F 1 "100" V 4195 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 2000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4300 2000 50  0001 C CNN
 F 3 "~" H 4300 2000 50  0001 C CNN
 	1    4300 2000
 	0    1    1    0   
@@ -69,7 +69,7 @@ U 1 1 5CC45F75
 P 4300 2300
 F 0 "R3" V 4104 2300 50  0000 C CNN
 F 1 "100" V 4195 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4300 2300 50  0001 C CNN
 F 3 "~" H 4300 2300 50  0001 C CNN
 	1    4300 2300
 	0    1    1    0   
@@ -94,7 +94,7 @@ U 1 1 5CC47411
 P 2750 1500
 F 0 "J1" H 2858 1881 50  0000 C CNN
 F 1 "CON_U" H 2858 1790 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Left" H 2750 1500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical_SMD_Pin1Left" H 2750 1500 50  0001 C CNN
 F 3 "~" H 2750 1500 50  0001 C CNN
 	1    2750 1500
 	1    0    0    -1  
@@ -143,8 +143,6 @@ Text GLabel 4000 2850 1    50   Input ~ 0
 VIN
 Text GLabel 3700 3100 0    50   Input ~ 0
 GVH
-Text GLabel 3700 3600 0    50   Input ~ 0
-GVL
 Text GLabel 4000 3350 2    50   Input ~ 0
 V
 $Comp
@@ -153,7 +151,7 @@ U 1 1 5CC4FA71
 P 4300 3850
 F 0 "R5" V 4104 3850 50  0000 C CNN
 F 1 "100" V 4195 3850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4300 3850 50  0001 C CNN
 F 3 "~" H 4300 3850 50  0001 C CNN
 	1    4300 3850
 	0    1    1    0   
@@ -164,7 +162,7 @@ U 1 1 5CC4FA77
 P 4300 4150
 F 0 "R6" V 4104 4150 50  0000 C CNN
 F 1 "100" V 4195 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4300 4150 50  0001 C CNN
 F 3 "~" H 4300 4150 50  0001 C CNN
 	1    4300 4150
 	0    1    1    0   
@@ -189,7 +187,7 @@ U 1 1 5CC4FA85
 P 2350 3350
 F 0 "J2" H 2458 3731 50  0000 C CNN
 F 1 "CON_U" H 2458 3640 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Left" H 2350 3350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical_SMD_Pin1Left" H 2350 3350 50  0001 C CNN
 F 3 "~" H 2350 3350 50  0001 C CNN
 	1    2350 3350
 	1    0    0    -1  
@@ -238,7 +236,7 @@ Text GLabel 4000 4700 1    50   Input ~ 0
 VIN
 Text GLabel 3700 4950 0    50   Input ~ 0
 GWH
-Text GLabel 3700 5450 0    50   Input ~ 0
+Text GLabel 3650 5450 0    50   Input ~ 0
 GWL
 Text GLabel 4000 5200 2    50   Input ~ 0
 W
@@ -248,7 +246,7 @@ U 1 1 5CC50F0F
 P 4300 5700
 F 0 "R8" V 4104 5700 50  0000 C CNN
 F 1 "100" V 4195 5700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 5700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4300 5700 50  0001 C CNN
 F 3 "~" H 4300 5700 50  0001 C CNN
 	1    4300 5700
 	0    1    1    0   
@@ -259,7 +257,7 @@ U 1 1 5CC50F15
 P 4300 6000
 F 0 "R9" V 4104 6000 50  0000 C CNN
 F 1 "100" V 4195 6000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 6000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4300 6000 50  0001 C CNN
 F 3 "~" H 4300 6000 50  0001 C CNN
 	1    4300 6000
 	0    1    1    0   
@@ -284,7 +282,7 @@ U 1 1 5CC50F23
 P 2300 5200
 F 0 "J3" H 2408 5581 50  0000 C CNN
 F 1 "CON_U" H 2408 5490 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Left" H 2300 5200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical_SMD_Pin1Left" H 2300 5200 50  0001 C CNN
 F 3 "~" H 2300 5200 50  0001 C CNN
 	1    2300 5200
 	1    0    0    -1  
@@ -1885,7 +1883,7 @@ U 1 1 5CE7A930
 P 750 3200
 F 0 "J4" H 858 3481 50  0000 C CNN
 F 1 "GND" H 858 3390 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical_SMD_Pin1Left" H 750 3200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical_SMD_Pin1Left" H 750 3200 50  0001 C CNN
 F 3 "~" H 750 3200 50  0001 C CNN
 	1    750  3200
 	1    0    0    -1  
@@ -1907,9 +1905,104 @@ U 1 1 5CCA217B
 P 750 3750
 F 0 "J5" H 858 4031 50  0000 C CNN
 F 1 "VIN" H 858 3940 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical_SMD_Pin1Left" H 750 3750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical_SMD_Pin1Left" H 750 3750 50  0001 C CNN
 F 3 "~" H 750 3750 50  0001 C CNN
 	1    750  3750
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 5CD1A975
+P 3850 3850
+F 0 "R11" V 3654 3850 50  0000 C CNN
+F 1 "10k" V 3745 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3850 3850 50  0001 C CNN
+F 3 "~" H 3850 3850 50  0001 C CNN
+	1    3850 3850
+	0    1    1    0   
+$EndComp
+Text GLabel 3650 3600 0    50   Input ~ 0
+GVL
+Wire Wire Line
+	3950 3850 4000 3850
+Wire Wire Line
+	3750 3850 3700 3850
+Wire Wire Line
+	3700 3850 3700 3600
+Wire Wire Line
+	3650 3600 3700 3600
+Connection ~ 3700 3600
+$Comp
+L Device:R_Small R10
+U 1 1 5CD24169
+P 3850 2000
+F 0 "R10" V 3654 2000 50  0000 C CNN
+F 1 "10k" V 3745 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3850 2000 50  0001 C CNN
+F 3 "~" H 3850 2000 50  0001 C CNN
+	1    3850 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 1750 3700 1750
+Wire Wire Line
+	3700 1750 3700 2000
+Wire Wire Line
+	3700 2000 3750 2000
+Connection ~ 3700 1750
+Wire Wire Line
+	3950 2000 4000 2000
+$Comp
+L Device:R_Small R12
+U 1 1 5CD2793A
+P 3850 5700
+F 0 "R12" V 3654 5700 50  0000 C CNN
+F 1 "10k" V 3745 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3850 5700 50  0001 C CNN
+F 3 "~" H 3850 5700 50  0001 C CNN
+	1    3850 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 5450 3700 5450
+Wire Wire Line
+	3700 5450 3700 5700
+Wire Wire Line
+	3700 5700 3750 5700
+Connection ~ 3700 5450
+Wire Wire Line
+	3950 5700 4000 5700
+$Comp
+L power:GND #PWR?
+U 1 1 5CDADC4B
+P 2500 5500
+F 0 "#PWR?" H 2500 5250 50  0001 C CNN
+F 1 "GND" V 2505 5372 50  0000 R CNN
+F 2 "" H 2500 5500 50  0001 C CNN
+F 3 "" H 2500 5500 50  0001 C CNN
+	1    2500 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CDAEC29
+P 2550 3650
+F 0 "#PWR?" H 2550 3400 50  0001 C CNN
+F 1 "GND" V 2555 3522 50  0000 R CNN
+F 2 "" H 2550 3650 50  0001 C CNN
+F 3 "" H 2550 3650 50  0001 C CNN
+	1    2550 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CDAFC32
+P 2950 1800
+F 0 "#PWR?" H 2950 1550 50  0001 C CNN
+F 1 "GND" V 2955 1672 50  0000 R CNN
+F 2 "" H 2950 1800 50  0001 C CNN
+F 3 "" H 2950 1800 50  0001 C CNN
+	1    2950 1800
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
