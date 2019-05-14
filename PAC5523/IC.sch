@@ -240,8 +240,6 @@ F 3 "https://lcsc.com/product-detail/DC-DC-Converters_ACTIVE-SEMI_ACT4088US-T_AC
 	1    2150 1400
 	1    0    0    -1  
 $EndComp
-Text Notes 5950 3700 0    50   ~ 0
-Braucht Footprint ^
 Text GLabel 6850 3300 2    50   Input ~ 0
 SK6812_OUT
 Text GLabel 6200 3200 0    50   Input ~ 0
@@ -274,7 +272,7 @@ U 1 1 5D5D388F
 P 6500 3200
 F 0 "U5" H 6525 3525 50  0000 C CNN
 F 1 "NL17SZ125" H 6525 3434 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6500 3400 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 6500 3400 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Logic-ICs_ON-Semicon_NL17SZ125DFT2G_ON-Semicon-ON-NL17SZ125DFT2G_C97774.html" H 6500 3400 50  0001 C CNN
 	1    6500 3200
 	1    0    0    -1  
@@ -441,11 +439,11 @@ F 3 "" H 6500 4850 50  0001 C CNN
 	1    6500 4600
 	1    0    0    -1  
 $EndComp
-Text GLabel 9550 3350 2    50   Input ~ 0
+Text GLabel 8950 3350 0    50   Input ~ 0
 SWDCL
-Text GLabel 9550 3450 2    50   Input ~ 0
-SWDIO
 Text GLabel 8950 3250 0    50   Input ~ 0
+SWDIO
+Text GLabel 9550 3450 2    50   Input ~ 0
 NTC
 Text GLabel 9550 4550 2    50   Input ~ 0
 Ain

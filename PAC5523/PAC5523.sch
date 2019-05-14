@@ -793,7 +793,7 @@ IUL
 Text GLabel 1650 3850 0    50   Input ~ 0
 IUH
 Text Notes 3700 1200 0    50   ~ 0
-Todo:\nBuchsen\nFootprints!\n
+Todo:\nOszillator\nNTC mergen\nEncoder\n
 $Comp
 L Connector:Conn_01x06_Male J2
 U 1 1 5CC60DBB

@@ -484,34 +484,6 @@ F 3 "" H 3350 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3150 3500 3100 3500
-$Comp
-L Connector:Conn_01x04_Male J?
-U 1 1 5D5B75A0
-P 4900 3450
-AR Path="/5D5B75A0" Ref="J?"  Part="1" 
-AR Path="/5D59ABFE/5D5B75A0" Ref="J7"  Part="1" 
-F 0 "J7" H 4872 3332 50  0000 R CNN
-F 1 "SWD" H 4872 3423 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4900 3450 50  0001 C CNN
-F 3 "~" H 4900 3450 50  0001 C CNN
-	1    4900 3450
-	-1   0    0    1   
-$EndComp
-Text GLabel 4700 3250 1    50   Input ~ 0
-VIO
-$Comp
-L power:GND #PWR?
-U 1 1 5D5B75A7
-P 4700 3550
-AR Path="/5D5B75A7" Ref="#PWR?"  Part="1" 
-AR Path="/5D59ABFE/5D5B75A7" Ref="#PWR0138"  Part="1" 
-F 0 "#PWR0138" H 4700 3300 50  0001 C CNN
-F 1 "GND" H 4705 3377 50  0000 C CNN
-F 2 "" H 4700 3550 50  0001 C CNN
-F 3 "" H 4700 3550 50  0001 C CNN
-	1    4700 3550
-	1    0    0    -1  
-$EndComp
 Text GLabel 2350 3600 1    50   Input ~ 0
 RS485_A
 Text GLabel 2100 3700 0    50   Input ~ 0
@@ -559,36 +531,6 @@ F 3 "~" H 2200 3600 50  0001 C CNN
 	1    2200 3600
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5D5B75DF
-P 4600 3350
-AR Path="/5D5B75DF" Ref="R?"  Part="1" 
-AR Path="/5D59ABFE/5D5B75DF" Ref="R21"  Part="1" 
-F 0 "R21" V 4400 3300 50  0000 C CNN
-F 1 "100" V 4500 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4600 3350 50  0001 C CNN
-F 3 "~" H 4600 3350 50  0001 C CNN
-	1    4600 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5D5B75E5
-P 4600 3450
-AR Path="/5D5B75E5" Ref="R?"  Part="1" 
-AR Path="/5D59ABFE/5D5B75E5" Ref="R22"  Part="1" 
-F 0 "R22" V 4704 3450 50  0000 C CNN
-F 1 "100" V 4795 3450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4600 3450 50  0001 C CNN
-F 3 "~" H 4600 3450 50  0001 C CNN
-	1    4600 3450
-	0    1    1    0   
-$EndComp
-Text GLabel 4500 3450 0    50   Input ~ 0
-SWDCL
-Text GLabel 4500 3350 0    50   Input ~ 0
-SWDIO
 $Comp
 L power:GND #PWR?
 U 1 1 5D5B75F3
@@ -975,4 +917,38 @@ Connection ~ 6000 3500
 Wire Wire Line
 	5850 3600 6100 3600
 Connection ~ 6100 3600
+$Comp
+L otter:TC2030-CTX-Tag-Connect P?
+U 1 1 5CD67ED4
+P 7800 2500
+AR Path="/5CD67ED4" Ref="P?"  Part="1" 
+AR Path="/5D59ABFE/5CD67ED4" Ref="P1"  Part="1" 
+F 0 "P1" H 7800 2792 40  0000 C CNN
+F 1 "TC2030-CTX-Tag-Connect" H 7800 2716 40  0000 C CNN
+F 2 "otter:TC2030" H 7800 2500 60  0001 C CNN
+F 3 "" H 7800 2500 60  0001 C CNN
+	1    7800 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 2400 0    50   Input ~ 0
+VIO
+$Comp
+L power:GND #PWR?
+U 1 1 5CD67EDB
+P 7350 2600
+AR Path="/5CD67EDB" Ref="#PWR?"  Part="1" 
+AR Path="/5D59ABFE/5CD67EDB" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 7350 2350 50  0001 C CNN
+F 1 "GND" V 7355 2472 50  0000 R CNN
+F 2 "" H 7350 2600 50  0001 C CNN
+F 3 "" H 7350 2600 50  0001 C CNN
+	1    7350 2600
+	0    1    1    0   
+$EndComp
+Text GLabel 8250 2500 2    50   Input ~ 0
+SWDCL
+Text GLabel 8250 2400 2    50   Input ~ 0
+SWDIO
+NoConn ~ 8250 2600
+NoConn ~ 7350 2500
 $EndSCHEMATC
