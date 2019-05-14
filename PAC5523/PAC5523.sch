@@ -792,8 +792,6 @@ Text GLabel 1650 3750 0    50   Input ~ 0
 IUL
 Text GLabel 1650 3850 0    50   Input ~ 0
 IUH
-Text Notes 3700 1200 0    50   ~ 0
-Todo:\nOszillator\n
 $Comp
 L Connector:Conn_01x06_Male J2
 U 1 1 5CC60DBB
@@ -1493,8 +1491,6 @@ U 5D5C3A79
 F0 "ESD and other ICs" 50
 F1 "IC.sch" 50
 $EndSheet
-Text Notes 5100 1550 0    50   ~ 0
-TVS Diode\nWiderstand
 Wire Wire Line
 	10650 3400 10200 3400
 Wire Wire Line
@@ -1633,31 +1629,58 @@ F 3 "" H 6650 4850 50  0001 C CNN
 $EndComp
 Text GLabel 2300 2000 1    50   Input ~ 0
 NTC_IO
-$Comp
-L Oscillator:ASCO X?
-U 1 1 5CE0A013
-P 2000 5650
-F 0 "X?" H 2450 5750 50  0000 L CNN
-F 1 "ASCO" H 2450 5550 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm" H 2100 5300 50  0001 C CNN
-F 3 "https://abracon.com/Oscillators/ASCO.pdf" H 1775 5775 50  0001 C CNN
-	1    2000 5650
-	1    0    0    -1  
-$EndComp
-Text GLabel 2400 5650 2    50   Input ~ 0
+Text GLabel 2650 5550 2    50   Input ~ 0
 CLK
-Text GLabel 2000 5350 1    50   Input ~ 0
+Text GLabel 1600 5550 0    50   Input ~ 0
 VIO
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0162
 U 1 1 5CE19C05
-P 2000 5950
-F 0 "#PWR?" H 2000 5700 50  0001 C CNN
-F 1 "GND" H 2005 5777 50  0000 C CNN
-F 2 "" H 2000 5950 50  0001 C CNN
-F 3 "" H 2000 5950 50  0001 C CNN
-	1    2000 5950
+P 1600 5750
+F 0 "#PWR0162" H 1600 5500 50  0001 C CNN
+F 1 "GND" H 1605 5577 50  0000 C CNN
+F 2 "" H 1600 5750 50  0001 C CNN
+F 3 "" H 1600 5750 50  0001 C CNN
+	1    1600 5750
+	0    1    1    0   
+$EndComp
+NoConn ~ 2200 5750
+$Comp
+L otter:Oscillator_3225 U4
+U 1 1 5CDC2B99
+P 1900 5650
+F 0 "U4" H 1900 5975 50  0000 C CNN
+F 1 "Oscillator_3225" H 1900 5884 50  0000 C CNN
+F 2 "otter:Oscillator_3225" H 1900 6050 50  0001 C CNN
+F 3 "" H 1900 6050 50  0001 C CNN
+	1    1900 5650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1600 5650
+$Comp
+L Device:C_Small C41
+U 1 1 5CDC3C4D
+P 2400 5650
+F 0 "C41" H 2492 5696 50  0000 L CNN
+F 1 "18p" H 2492 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2400 5650 50  0001 C CNN
+F 3 "~" H 2400 5650 50  0001 C CNN
+	1    2400 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0163
+U 1 1 5CDC3C53
+P 2400 5750
+F 0 "#PWR0163" H 2400 5500 50  0001 C CNN
+F 1 "GND" H 2405 5577 50  0000 C CNN
+F 2 "" H 2400 5750 50  0001 C CNN
+F 3 "" H 2400 5750 50  0001 C CNN
+	1    2400 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5550 2400 5550
+Connection ~ 2400 5550
+Wire Wire Line
+	2400 5550 2200 5550
 $EndSCHEMATC
