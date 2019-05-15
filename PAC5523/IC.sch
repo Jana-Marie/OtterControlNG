@@ -382,7 +382,7 @@ Text GLabel 8950 3350 0    50   Input ~ 0
 SWDCL
 Text GLabel 8950 3250 0    50   Input ~ 0
 SWDIO
-Text GLabel 9550 3450 2    50   Input ~ 0
+Text GLabel 9550 3350 2    50   Input ~ 0
 NTC_POWERSTAGE
 Text GLabel 9550 4550 2    50   Input ~ 0
 Ain
