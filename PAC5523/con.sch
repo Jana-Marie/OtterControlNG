@@ -687,7 +687,7 @@ F 3 "~" H 7350 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 7250 3550 0    50   Input ~ 0
-AIN
+Ain
 $Comp
 L power:GND #PWR?
 U 1 1 5CD0C6F8
@@ -746,8 +746,6 @@ F 3 "~" H 7900 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4700 3000 0    50   Input ~ 0
-VIO
-Text GLabel 6250 4300 3    50   Input ~ 0
 VIO
 Wire Wire Line
 	6250 4100 6250 3550
@@ -1031,5 +1029,7 @@ Wire Wire Line
 Text GLabel 7700 3450 0    50   Input ~ 0
 VIO
 Text GLabel 7550 3750 3    50   Input ~ 0
+VIO
+Text GLabel 6250 4300 3    50   Input ~ 0
 VIO
 $EndSCHEMATC
