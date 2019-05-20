@@ -1032,4 +1032,82 @@ Text GLabel 7550 3750 3    50   Input ~ 0
 VIO
 Text GLabel 6250 4300 3    50   Input ~ 0
 VIO
+$Comp
+L Device:R_Small R?
+U 1 1 5CEAA519
+P 7350 1450
+AR Path="/5CEAA519" Ref="R?"  Part="1" 
+AR Path="/5D59ABFE/5CEAA519" Ref="R6"  Part="1" 
+F 0 "R6" H 7409 1496 50  0000 L CNN
+F 1 "100k" H 7409 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7350 1450 50  0001 C CNN
+F 3 "~" H 7350 1450 50  0001 C CNN
+	1    7350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CEAA51F
+P 7350 1750
+AR Path="/5CEAA51F" Ref="R?"  Part="1" 
+AR Path="/5D59ABFE/5CEAA51F" Ref="R17"  Part="1" 
+F 0 "R17" H 7409 1796 50  0000 L CNN
+F 1 "4k3" H 7409 1705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7350 1750 50  0001 C CNN
+F 3 "~" H 7350 1750 50  0001 C CNN
+	1    7350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CEAA525
+P 7050 1750
+AR Path="/5CEAA525" Ref="C?"  Part="1" 
+AR Path="/5D59ABFE/5CEAA525" Ref="C42"  Part="1" 
+F 0 "C42" H 7142 1796 50  0000 L CNN
+F 1 "100p" H 7142 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7050 1750 50  0001 C CNN
+F 3 "~" H 7050 1750 50  0001 C CNN
+	1    7050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEAA52B
+P 7350 1850
+AR Path="/5CEAA52B" Ref="#PWR?"  Part="1" 
+AR Path="/5D59ABFE/5CEAA52B" Ref="#PWR0191"  Part="1" 
+F 0 "#PWR0191" H 7350 1600 50  0001 C CNN
+F 1 "GND" H 7355 1677 50  0000 C CNN
+F 2 "" H 7350 1850 50  0001 C CNN
+F 3 "" H 7350 1850 50  0001 C CNN
+	1    7350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEAA531
+P 7050 1850
+AR Path="/5CEAA531" Ref="#PWR?"  Part="1" 
+AR Path="/5D59ABFE/5CEAA531" Ref="#PWR0192"  Part="1" 
+F 0 "#PWR0192" H 7050 1600 50  0001 C CNN
+F 1 "GND" H 7055 1677 50  0000 C CNN
+F 2 "" H 7050 1850 50  0001 C CNN
+F 3 "" H 7050 1850 50  0001 C CNN
+	1    7050 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 1550 7350 1600
+Wire Wire Line
+	7350 1600 7050 1600
+Wire Wire Line
+	7050 1600 7050 1650
+Connection ~ 7350 1600
+Wire Wire Line
+	7350 1600 7350 1650
+Text GLabel 7050 1600 0    50   Input ~ 0
+Vin_mon
+Text GLabel 7350 1350 1    50   Input ~ 0
+VIN
 $EndSCHEMATC

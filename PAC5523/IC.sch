@@ -419,11 +419,11 @@ F 3 "" H 8950 4050 50  0001 C CNN
 	1    8950 4050
 	1    0    0    -1  
 $EndComp
-Text GLabel 8950 3850 0    50   Input ~ 0
+Text GLabel 8950 3950 0    50   Input ~ 0
 HALL3
-Text GLabel 9550 3950 2    50   Input ~ 0
+Text GLabel 8950 3850 0    50   Input ~ 0
 HALL2
-Text GLabel 9550 4050 2    50   Input ~ 0
+Text GLabel 9550 3950 2    50   Input ~ 0
 HALL1
 $Comp
 L power:+5V #PWR0169
