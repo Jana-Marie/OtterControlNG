@@ -618,7 +618,7 @@ AR Path="/5D5B7598" Ref="JP?"  Part="1"
 AR Path="/5D59ABFE/5D5B7598" Ref="JP2"  Part="1" 
 F 0 "JP2" H 4950 3204 50  0000 C CNN
 F 1 "UART" H 4950 3113 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 4950 3000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4950 3000 50  0001 C CNN
 F 3 "~" H 4950 3000 50  0001 C CNN
 	1    4950 3000
 	1    0    0    -1  
