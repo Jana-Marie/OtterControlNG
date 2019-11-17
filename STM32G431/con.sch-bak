@@ -1274,7 +1274,7 @@ F 3 "" H 9850 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9550 3500 0    50   Input ~ 0
-SWDCL
+SWCLK
 Text GLabel 9550 3400 0    50   Input ~ 0
 SWDIO
 Text GLabel 10150 4300 2    50   Input ~ 0
