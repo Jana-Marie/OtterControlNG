@@ -2046,7 +2046,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 1100 7650 1150
 $Comp
-L Device:Crystal_GND23 Y1
+L Device:Crystal_GND24 Y1
 U 1 1 5DD492E5
 P 1900 3050
 F 0 "Y1" V 1946 2806 50  0000 R CNN
