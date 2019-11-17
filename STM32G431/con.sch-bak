@@ -64,8 +64,8 @@ U 1 1 5D5B7493
 P 6650 7050
 AR Path="/5D5B7493" Ref="R?"  Part="1" 
 AR Path="/5D59ABFE/5D5B7493" Ref="R30"  Part="1" 
-F 0 "R30" V 6846 7050 50  0000 C CNN
-F 1 "100k" V 6755 7050 50  0000 C CNN
+F 0 "R30" V 6546 7050 50  0000 C CNN
+F 1 "100k" V 6455 7050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6650 7050 50  0001 C CNN
 F 3 "~" H 6650 7050 50  0001 C CNN
 	1    6650 7050
@@ -74,14 +74,14 @@ $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5D5B7499
-P 6500 6700
+P 6500 6900
 AR Path="/5D5B7499" Ref="R?"  Part="1" 
 AR Path="/5D59ABFE/5D5B7499" Ref="R31"  Part="1" 
-F 0 "R31" H 6559 6746 50  0000 L CNN
-F 1 "4k3" H 6559 6655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6500 6700 50  0001 C CNN
-F 3 "~" H 6500 6700 50  0001 C CNN
-	1    6500 6700
+F 0 "R31" H 6559 6946 50  0000 L CNN
+F 1 "4k3" H 6559 6855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6500 6900 50  0001 C CNN
+F 3 "~" H 6500 6900 50  0001 C CNN
+	1    6500 6900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -122,25 +122,12 @@ U 1 1 5D5B74B8
 P 5500 7050
 AR Path="/5D5B74B8" Ref="R?"  Part="1" 
 AR Path="/5D59ABFE/5D5B74B8" Ref="R25"  Part="1" 
-F 0 "R25" V 5304 7050 50  0000 C CNN
-F 1 "100k" V 5395 7050 50  0000 C CNN
+F 0 "R25" V 5604 7050 50  0000 C CNN
+F 1 "100k" V 5695 7050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5500 7050 50  0001 C CNN
 F 3 "~" H 5500 7050 50  0001 C CNN
 	1    5500 7050
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5D5B74BE
-P 5350 7200
-AR Path="/5D5B74BE" Ref="R?"  Part="1" 
-AR Path="/5D59ABFE/5D5B74BE" Ref="R26"  Part="1" 
-F 0 "R26" H 5409 7246 50  0000 L CNN
-F 1 "4k3" H 5409 7155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5350 7200 50  0001 C CNN
-F 3 "~" H 5350 7200 50  0001 C CNN
-	1    5350 7200
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
@@ -153,19 +140,6 @@ F 1 "100p" H 4892 7155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4800 7200 50  0001 C CNN
 F 3 "~" H 4800 7200 50  0001 C CNN
 	1    4800 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D5B74CA
-P 5350 7300
-AR Path="/5D5B74CA" Ref="#PWR?"  Part="1" 
-AR Path="/5D59ABFE/5D5B74CA" Ref="#PWR0117"  Part="1" 
-F 0 "#PWR0117" H 5350 7050 50  0001 C CNN
-F 1 "GND" H 5355 7127 50  0000 C CNN
-F 2 "" H 5350 7300 50  0001 C CNN
-F 3 "" H 5350 7300 50  0001 C CNN
-	1    5350 7300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -183,9 +157,6 @@ F 3 "" H 4800 7300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4800 7050 4800 7100
-Connection ~ 5350 7050
-Wire Wire Line
-	5350 7050 5350 7100
 Text GLabel 5600 7050 2    50   Input ~ 0
 V
 Text GLabel 4800 7050 0    50   Input ~ 0
@@ -193,80 +164,63 @@ UV
 $Comp
 L Device:R_Small R?
 U 1 1 5D5B74DD
-P 3750 6900
+P 4300 7050
 AR Path="/5D5B74DD" Ref="R?"  Part="1" 
 AR Path="/5D59ABFE/5D5B74DD" Ref="R23"  Part="1" 
-F 0 "R23" H 3809 6946 50  0000 L CNN
-F 1 "100k" H 3809 6855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3750 6900 50  0001 C CNN
-F 3 "~" H 3750 6900 50  0001 C CNN
-	1    3750 6900
-	1    0    0    -1  
+F 0 "R23" V 4404 7050 50  0000 C CNN
+F 1 "100k" V 4495 7050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 7050 50  0001 C CNN
+F 3 "~" H 4300 7050 50  0001 C CNN
+	1    4300 7050
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5D5B74E3
-P 3750 7200
+P 4150 6900
 AR Path="/5D5B74E3" Ref="R?"  Part="1" 
 AR Path="/5D59ABFE/5D5B74E3" Ref="R24"  Part="1" 
-F 0 "R24" H 3809 7246 50  0000 L CNN
-F 1 "4k3" H 3809 7155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3750 7200 50  0001 C CNN
-F 3 "~" H 3750 7200 50  0001 C CNN
-	1    3750 7200
+F 0 "R24" H 4209 6946 50  0000 L CNN
+F 1 "4k3" H 4209 6855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 6900 50  0001 C CNN
+F 3 "~" H 4150 6900 50  0001 C CNN
+	1    4150 6900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5D5B74E9
-P 3450 7200
+P 3650 7200
 AR Path="/5D5B74E9" Ref="C?"  Part="1" 
 AR Path="/5D59ABFE/5D5B74E9" Ref="C29"  Part="1" 
-F 0 "C29" H 3542 7246 50  0000 L CNN
-F 1 "100p" H 3542 7155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3450 7200 50  0001 C CNN
-F 3 "~" H 3450 7200 50  0001 C CNN
-	1    3450 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D5B74EF
-P 3750 7300
-AR Path="/5D5B74EF" Ref="#PWR?"  Part="1" 
-AR Path="/5D59ABFE/5D5B74EF" Ref="#PWR0127"  Part="1" 
-F 0 "#PWR0127" H 3750 7050 50  0001 C CNN
-F 1 "GND" H 3755 7127 50  0000 C CNN
-F 2 "" H 3750 7300 50  0001 C CNN
-F 3 "" H 3750 7300 50  0001 C CNN
-	1    3750 7300
+F 0 "C29" H 3742 7246 50  0000 L CNN
+F 1 "100p" H 3742 7155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3650 7200 50  0001 C CNN
+F 3 "~" H 3650 7200 50  0001 C CNN
+	1    3650 7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D5B74F5
-P 3450 7300
+P 3650 7300
 AR Path="/5D5B74F5" Ref="#PWR?"  Part="1" 
 AR Path="/5D59ABFE/5D5B74F5" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR0128" H 3450 7050 50  0001 C CNN
-F 1 "GND" H 3455 7127 50  0000 C CNN
-F 2 "" H 3450 7300 50  0001 C CNN
-F 3 "" H 3450 7300 50  0001 C CNN
-	1    3450 7300
+F 0 "#PWR0128" H 3650 7050 50  0001 C CNN
+F 1 "GND" H 3655 7127 50  0000 C CNN
+F 2 "" H 3650 7300 50  0001 C CNN
+F 3 "" H 3650 7300 50  0001 C CNN
+	1    3650 7300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 7000 3750 7050
+	4150 7000 4150 7050
 Wire Wire Line
-	3750 7050 3450 7050
-Wire Wire Line
-	3450 7050 3450 7100
-Connection ~ 3750 7050
-Wire Wire Line
-	3750 7050 3750 7100
-Text GLabel 3750 6800 1    50   Input ~ 0
+	3650 7050 3650 7100
+Connection ~ 4150 7050
+Text GLabel 4400 7050 2    50   Input ~ 0
 U
-Text GLabel 3450 7050 0    50   Input ~ 0
+Text GLabel 3650 7050 0    50   Input ~ 0
 UU
 Text GLabel 1250 7050 1    50   Input ~ 0
 CANH
@@ -409,10 +363,6 @@ Wire Wire Line
 	5150 1000 5100 1000
 Text GLabel 4350 1100 1    50   Input ~ 0
 RS485_A
-Text GLabel 4100 1200 0    50   Input ~ 0
-CANRX
-Text GLabel 4100 1100 0    50   Input ~ 0
-CANTX
 Text GLabel 4350 1200 3    50   Input ~ 0
 RS485_B
 $Comp
@@ -704,19 +654,6 @@ Wire Wire Line
 Connection ~ 7700 1100
 Wire Wire Line
 	7700 1100 7850 1100
-$Comp
-L Connector_Generic_MountingPin:Conn_01x03_MountingPin J?
-U 1 1 5CD10818
-P 8050 1100
-AR Path="/5CD10818" Ref="J?"  Part="1" 
-AR Path="/5D59ABFE/5CD10818" Ref="J9"  Part="1" 
-F 0 "J9" H 8138 1064 50  0000 L CNN
-F 1 "AIN" H 8138 973 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal" H 8050 1100 50  0001 C CNN
-F 3 "~" H 8050 1100 50  0001 C CNN
-	1    8050 1100
-	1    0    0    -1  
-$EndComp
 Text GLabel 4850 850  0    50   Input ~ 0
 VIO
 Wire Wire Line
@@ -803,19 +740,6 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 4150 5300 50  0001 C CNN
 F 3 "~" H 4150 5300 50  0001 C CNN
 	1    4150 5300
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D?
-U 1 1 5CDE236C
-P 4650 5200
-AR Path="/5CDE236C" Ref="D?"  Part="1" 
-AR Path="/5D59ABFE/5CDE236C" Ref="D19"  Part="1" 
-F 0 "D19" V 4604 5268 50  0000 L CNN
-F 1 "SS310" V 4695 5268 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123F" V 4650 5200 50  0001 C CNN
-F 3 "~" V 4650 5200 50  0001 C CNN
-	1    4650 5200
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C?
@@ -922,32 +846,6 @@ NTC_EXT_GND
 Wire Wire Line
 	4150 4650 4150 5200
 $Comp
-L power:GND #PWR?
-U 1 1 5CDC3216
-P 3300 1700
-AR Path="/5CDC3216" Ref="#PWR?"  Part="1" 
-AR Path="/5D59ABFE/5CDC3216" Ref="#PWR0180"  Part="1" 
-F 0 "#PWR0180" H 3300 1450 50  0001 C CNN
-F 1 "GND" V 3305 1572 50  0000 R CNN
-F 2 "" H 3300 1700 50  0001 C CNN
-F 3 "" H 3300 1700 50  0001 C CNN
-	1    3300 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5CDC3A92
-P 3100 1500
-AR Path="/5CDC3A92" Ref="#PWR?"  Part="1" 
-AR Path="/5D59ABFE/5CDC3A92" Ref="#PWR0187"  Part="1" 
-F 0 "#PWR0187" H 3100 1250 50  0001 C CNN
-F 1 "GND" H 3105 1327 50  0000 C CNN
-F 2 "" H 3100 1500 50  0001 C CNN
-F 3 "" H 3100 1500 50  0001 C CNN
-	1    3100 1500
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5CDC5499
 P 6700 1000
@@ -960,43 +858,9 @@ F 3 "" H 6700 1000 50  0001 C CNN
 	1    6700 1000
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5CDC6416
-P 3100 1000
-AR Path="/5CDC6416" Ref="#PWR?"  Part="1" 
-AR Path="/5D59ABFE/5CDC6416" Ref="#PWR0189"  Part="1" 
-F 0 "#PWR0189" H 3100 850 50  0001 C CNN
-F 1 "+5V" V 3115 1128 50  0000 L CNN
-F 2 "" H 3100 1000 50  0001 C CNN
-F 3 "" H 3100 1000 50  0001 C CNN
-	1    3100 1000
-	0    -1   -1   0   
-$EndComp
-Text GLabel 3100 1400 0    50   Input ~ 0
-ENC_B_B
-Text GLabel 3100 1300 0    50   Input ~ 0
-ENC_B_A
-Text GLabel 3100 1100 0    50   Input ~ 0
-ENC_A_A
-Text GLabel 3100 1200 0    50   Input ~ 0
-ENC_A_B
-$Comp
-L Connector_Generic_MountingPin:Conn_01x06_MountingPin J7
-U 1 1 5CDDC0FB
-P 3300 1200
-F 0 "J7" H 3388 1114 50  0000 L CNN
-F 1 "ENCODER" H 3388 1023 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal" H 3300 1200 50  0001 C CNN
-F 3 "~" H 3300 1200 50  0001 C CNN
-	1    3300 1200
-	1    0    0    -1  
-$EndComp
 Text GLabel 4150 4450 1    50   Input ~ 0
 3V3
-Wire Wire Line
-	4150 5200 4550 5200
-Text GLabel 7850 1000 0    50   Input ~ 0
+Text GLabel 7850 900  0    50   Input ~ 0
 VIO
 Text GLabel 7700 1300 3    50   Input ~ 0
 VIO
@@ -1080,40 +944,6 @@ Text GLabel 7450 6000 0    50   Input ~ 0
 Vin_mon
 Text GLabel 7750 5750 1    50   Input ~ 0
 VIN
-Text GLabel 1000 7050 1    50   Input ~ 0
-ENC_B_B
-Text GLabel 1000 7250 3    50   Input ~ 0
-ENC_B_A
-Text GLabel 750  7250 3    50   Input ~ 0
-ENC_A_A
-Text GLabel 750  7050 1    50   Input ~ 0
-ENC_A_B
-$Comp
-L Device:R_Small R?
-U 1 1 5CE48E04
-P 1000 7150
-AR Path="/5CE48E04" Ref="R?"  Part="1" 
-AR Path="/5D59ABFE/5CE48E04" Ref="R22"  Part="1" 
-F 0 "R22" H 1059 7196 50  0000 L CNN
-F 1 "120" H 1059 7105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1000 7150 50  0001 C CNN
-F 3 "~" H 1000 7150 50  0001 C CNN
-	1    1000 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5CE4A78F
-P 750 7150
-AR Path="/5CE4A78F" Ref="R?"  Part="1" 
-AR Path="/5D59ABFE/5CE4A78F" Ref="R18"  Part="1" 
-F 0 "R18" H 809 7196 50  0000 L CNN
-F 1 "120" H 809 7105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 750 7150 50  0001 C CNN
-F 3 "~" H 750 7150 50  0001 C CNN
-	1    750  7150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR0139
 U 1 1 5CEAAA0D
@@ -1305,17 +1135,6 @@ F 3 "~" H 4550 2900 50  0001 C CNN
 	1    4550 2900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Small D18
-U 1 1 5CEAAA77
-P 4550 3400
-F 0 "D18" H 4550 3605 50  0000 C CNN
-F 1 "SS310" H 4550 3514 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" V 4550 3400 50  0001 C CNN
-F 3 "~" V 4550 3400 50  0001 C CNN
-	1    4550 3400
-	0    1    1    0   
-$EndComp
 Text GLabel 3600 2850 0    50   Input ~ 0
 VP
 $Comp
@@ -1436,46 +1255,34 @@ F 3 "" H 9850 4200 50  0001 C CNN
 	1    9850 4200
 	1    0    0    -1  
 $EndComp
-Text GLabel 8300 4900 2    50   Input ~ 0
-ENC_B_B
-Text GLabel 8300 5000 2    50   Input ~ 0
-ENC_B_A
-Text GLabel 8300 4250 2    50   Input ~ 0
-ENC_A_A
-Text GLabel 8300 4150 2    50   Input ~ 0
-ENC_A_B
-Text GLabel 7700 5100 0    50   Input ~ 0
-ENC_B
-Text GLabel 7700 4350 0    50   Input ~ 0
-ENC_A
 $Comp
 L power:GND #PWR0161
 U 1 1 5CEAAAC4
-P 8300 3600
-F 0 "#PWR0161" H 8300 3350 50  0001 C CNN
-F 1 "GND" V 8305 3472 50  0000 R CNN
-F 2 "" H 8300 3600 50  0001 C CNN
-F 3 "" H 8300 3600 50  0001 C CNN
-	1    8300 3600
+P 10150 3000
+F 0 "#PWR0161" H 10150 2750 50  0001 C CNN
+F 1 "GND" V 10155 2872 50  0000 R CNN
+F 2 "" H 10150 3000 50  0001 C CNN
+F 3 "" H 10150 3000 50  0001 C CNN
+	1    10150 3000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8300 3400 2    50   Input ~ 0
+Text GLabel 10150 2800 2    50   Input ~ 0
 RS485_B
-Text GLabel 8300 3500 2    50   Input ~ 0
+Text GLabel 10150 2900 2    50   Input ~ 0
 RS485_A
-Text GLabel 7700 3500 0    50   Input ~ 0
+Text GLabel 9550 2900 0    50   Input ~ 0
 RS485RXTX
 Wire Wire Line
-	7700 3400 7700 3500
+	9550 2800 9550 2900
 $Comp
 L otter:RS485 U5
 U 1 1 5CEAAACE
-P 8000 3450
-F 0 "U5" H 8000 3825 50  0000 C CNN
-F 1 "RS485" H 8000 3734 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8000 3700 50  0001 C CNN
-F 3 "" H 8000 3700 50  0001 C CNN
-	1    8000 3450
+P 9850 2850
+F 0 "U5" H 9850 3225 50  0000 C CNN
+F 1 "RS485" H 9850 3134 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9850 3100 50  0001 C CNN
+F 3 "" H 9850 3100 50  0001 C CNN
+	1    9850 2850
 	1    0    0    -1  
 $EndComp
 Text GLabel 9550 3500 0    50   Input ~ 0
@@ -1539,12 +1346,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0168
 U 1 1 5CEAAAF3
-P 8300 3300
-F 0 "#PWR0168" H 8300 3150 50  0001 C CNN
-F 1 "+5V" V 8315 3428 50  0000 L CNN
-F 2 "" H 8300 3300 50  0001 C CNN
-F 3 "" H 8300 3300 50  0001 C CNN
-	1    8300 3300
+P 10150 2700
+F 0 "#PWR0168" H 10150 2550 50  0001 C CNN
+F 1 "+5V" V 10165 2828 50  0000 L CNN
+F 2 "" H 10150 2700 50  0001 C CNN
+F 3 "" H 10150 2700 50  0001 C CNN
+	1    10150 2700
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1584,14 +1391,6 @@ Text GLabel 1050 4850 0    50   Input ~ 0
 CANRX
 Text GLabel 1050 4750 0    50   Input ~ 0
 CANTX
-Text GLabel 9550 4800 0    50   Input ~ 0
-CANRX
-Text GLabel 9550 4900 0    50   Input ~ 0
-CANTX
-Text GLabel 7700 3600 0    50   Input ~ 0
-CANTX
-Text GLabel 7700 3300 0    50   Input ~ 0
-CANRX
 $Comp
 L LED:SK6812MINI D17
 U 1 1 5CEAAB11
@@ -1603,211 +1402,220 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    1550 3050
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0172
-U 1 1 5CEAAB17
-P 8300 4350
-F 0 "#PWR0172" H 8300 4100 50  0001 C CNN
-F 1 "GND" V 8305 4222 50  0000 R CNN
-F 2 "" H 8300 4350 50  0001 C CNN
-F 3 "" H 8300 4350 50  0001 C CNN
-	1    8300 4350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7700 4150 7700 4200
-$Comp
-L otter:RS485 U6
-U 1 1 5CEAAB1E
-P 8000 4200
-F 0 "U6" H 8000 4575 50  0000 C CNN
-F 1 "ENCODER A" H 8000 4484 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8000 4450 50  0001 C CNN
-F 3 "" H 8000 4450 50  0001 C CNN
-	1    8000 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0173
-U 1 1 5CEAAB24
-P 8300 4050
-F 0 "#PWR0173" H 8300 3900 50  0001 C CNN
-F 1 "+5V" V 8315 4178 50  0000 L CNN
-F 2 "" H 8300 4050 50  0001 C CNN
-F 3 "" H 8300 4050 50  0001 C CNN
-	1    8300 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0182
-U 1 1 5CEAAB2A
-P 8300 5100
-F 0 "#PWR0182" H 8300 4850 50  0001 C CNN
-F 1 "GND" V 8305 4972 50  0000 R CNN
-F 2 "" H 8300 5100 50  0001 C CNN
-F 3 "" H 8300 5100 50  0001 C CNN
-	1    8300 5100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7700 4900 7700 4950
-$Comp
-L otter:RS485 U7
-U 1 1 5CEAAB31
-P 8000 4950
-F 0 "U7" H 8000 5325 50  0000 C CNN
-F 1 "ENCODER B" H 8000 5234 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8000 5200 50  0001 C CNN
-F 3 "" H 8000 5200 50  0001 C CNN
-	1    8000 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0183
-U 1 1 5CEAAB37
-P 8300 4800
-F 0 "#PWR0183" H 8300 4650 50  0001 C CNN
-F 1 "+5V" V 8315 4928 50  0000 L CNN
-F 2 "" H 8300 4800 50  0001 C CNN
-F 3 "" H 8300 4800 50  0001 C CNN
-	1    8300 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0184
-U 1 1 5CEAAB3D
-P 7700 4950
-F 0 "#PWR0184" H 7700 4700 50  0001 C CNN
-F 1 "GND" H 7705 4777 50  0000 C CNN
-F 2 "" H 7700 4950 50  0001 C CNN
-F 3 "" H 7700 4950 50  0001 C CNN
-	1    7700 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0185
-U 1 1 5CEAAB43
-P 7700 4200
-F 0 "#PWR0185" H 7700 3950 50  0001 C CNN
-F 1 "GND" H 7705 4027 50  0000 C CNN
-F 2 "" H 7700 4200 50  0001 C CNN
-F 3 "" H 7700 4200 50  0001 C CNN
-	1    7700 4200
-	0    1    1    0   
-$EndComp
-Connection ~ 7700 4200
-Wire Wire Line
-	7700 4200 7700 4250
-Connection ~ 7700 4950
-Wire Wire Line
-	7700 4950 7700 5000
 Text Notes 5450 2900 0    50   ~ 0
 CAP kleiner?
 Text GLabel 2750 7150 2    50   Input ~ 0
 SWCLK
-Text GLabel 2850 6750 2    50   Input ~ 0
-SWDIO
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D10
 U 1 1 5DF0AF73
-P 6050 6900
-F 0 "D?" V 6004 6979 50  0000 L CNN
-F 1 "B5819W" V 6095 6979 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 6050 6900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 6050 6900 50  0001 C CNN
-F 4 "C8598" H 6050 6900 50  0001 C CNN "LCSC"
-	1    6050 6900
+P 6050 6850
+F 0 "D10" V 6004 6929 50  0000 L CNN
+F 1 "B5819W" V 6095 6929 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6050 6850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 6050 6850 50  0001 C CNN
+F 4 "C8598" H 6050 6850 50  0001 C CNN "LCSC"
+	1    6050 6850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6550 7050 6500 7050
-Connection ~ 6050 7050
-Wire Wire Line
-	6050 7050 6000 7050
-Wire Wire Line
-	6050 7050 6500 7050
-Connection ~ 6500 7050
-Wire Wire Line
-	6500 6800 6500 7050
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0209
 U 1 1 5DD257DD
-P 6050 6750
-F 0 "#PWR?" H 6050 6600 50  0001 C CNN
-F 1 "+3.3V" H 6065 6923 50  0000 C CNN
-F 2 "" H 6050 6750 50  0001 C CNN
-F 3 "" H 6050 6750 50  0001 C CNN
-	1    6050 6750
+P 6050 6700
+F 0 "#PWR0209" H 6050 6550 50  0001 C CNN
+F 1 "+3.3V" H 6065 6873 50  0000 C CNN
+F 2 "" H 6050 6700 50  0001 C CNN
+F 3 "" H 6050 6700 50  0001 C CNN
+	1    6050 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D13
 U 1 1 5DD26CD9
-P 6500 6450
-F 0 "D?" V 6454 6529 50  0000 L CNN
-F 1 "B5819W" V 6545 6529 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 6500 6450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 6500 6450 50  0001 C CNN
-F 4 "C8598" H 6500 6450 50  0001 C CNN "LCSC"
-	1    6500 6450
+P 6500 6650
+F 0 "D13" V 6454 6729 50  0000 L CNN
+F 1 "B5819W" V 6545 6729 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6500 6650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 6500 6650 50  0001 C CNN
+F 4 "C8598" H 6500 6650 50  0001 C CNN "LCSC"
+	1    6500 6650
 	0    1    1    0   
 $EndComp
-Text GLabel 6500 6300 1    50   Input ~ 0
+Text GLabel 6500 6500 1    50   Input ~ 0
 GPIO_BEMF
-Wire Wire Line
-	5400 7050 5350 7050
-Wire Wire Line
-	4800 7050 5350 7050
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D6
 U 1 1 5DD3AA3A
-P 4850 6900
-F 0 "D?" V 4804 6979 50  0000 L CNN
-F 1 "B5819W" V 4895 6979 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 4850 6900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 4850 6900 50  0001 C CNN
-F 4 "C8598" H 4850 6900 50  0001 C CNN "LCSC"
-	1    4850 6900
+P 4850 6850
+F 0 "D6" V 4804 6929 50  0000 L CNN
+F 1 "B5819W" V 4895 6929 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4850 6850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 4850 6850 50  0001 C CNN
+F 4 "C8598" H 4850 6850 50  0001 C CNN "LCSC"
+	1    4850 6850
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0210
 U 1 1 5DD3AA40
-P 4850 6750
-F 0 "#PWR?" H 4850 6600 50  0001 C CNN
-F 1 "+3.3V" H 4865 6923 50  0000 C CNN
-F 2 "" H 4850 6750 50  0001 C CNN
-F 3 "" H 4850 6750 50  0001 C CNN
-	1    4850 6750
+P 4850 6700
+F 0 "#PWR0210" H 4850 6550 50  0001 C CNN
+F 1 "+3.3V" H 4865 6873 50  0000 C CNN
+F 2 "" H 4850 6700 50  0001 C CNN
+F 3 "" H 4850 6700 50  0001 C CNN
+	1    4850 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5DD400C6
-P 5350 6700
+P 5350 6900
 AR Path="/5DD400C6" Ref="R?"  Part="1" 
 AR Path="/5D59ABFE/5DD400C6" Ref="R26"  Part="1" 
-F 0 "R26" H 5409 6746 50  0000 L CNN
-F 1 "4k3" H 5409 6655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5350 6700 50  0001 C CNN
-F 3 "~" H 5350 6700 50  0001 C CNN
-	1    5350 6700
+F 0 "R26" H 5409 6946 50  0000 L CNN
+F 1 "4k3" H 5409 6855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5350 6900 50  0001 C CNN
+F 3 "~" H 5350 6900 50  0001 C CNN
+	1    5350 6900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5350 6800 5350 7050
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D7
 U 1 1 5DD400CE
-P 5350 6450
-F 0 "D?" V 5304 6529 50  0000 L CNN
-F 1 "B5819W" V 5395 6529 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 5350 6450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 5350 6450 50  0001 C CNN
-F 4 "C8598" H 5350 6450 50  0001 C CNN "LCSC"
-	1    5350 6450
+P 5350 6650
+F 0 "D7" V 5304 6729 50  0000 L CNN
+F 1 "B5819W" V 5395 6729 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 5350 6650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 5350 6650 50  0001 C CNN
+F 4 "C8598" H 5350 6650 50  0001 C CNN "LCSC"
+	1    5350 6650
 	0    1    1    0   
 $EndComp
-Text GLabel 5350 6300 1    50   Input ~ 0
+Text GLabel 5350 6500 1    50   Input ~ 0
 GPIO_BEMF
+Wire Wire Line
+	4200 7050 4150 7050
+Wire Wire Line
+	6500 7000 6500 7050
+Connection ~ 6500 7050
+Wire Wire Line
+	6500 7050 6550 7050
+Wire Wire Line
+	6000 7050 6050 7050
+Wire Wire Line
+	6050 7000 6050 7050
+Connection ~ 6050 7050
+Wire Wire Line
+	6050 7050 6500 7050
+Wire Wire Line
+	5350 7000 5350 7050
+Connection ~ 5350 7050
+Wire Wire Line
+	5350 7050 5400 7050
+Wire Wire Line
+	4800 7050 4850 7050
+Wire Wire Line
+	4850 7000 4850 7050
+Connection ~ 4850 7050
+Wire Wire Line
+	4850 7050 5350 7050
+Wire Wire Line
+	3650 7050 3700 7050
+$Comp
+L Device:D_Schottky D2
+U 1 1 5DD7236E
+P 3700 6850
+F 0 "D2" V 3654 6929 50  0000 L CNN
+F 1 "B5819W" V 3745 6929 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 3700 6850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 3700 6850 50  0001 C CNN
+F 4 "C8598" H 3700 6850 50  0001 C CNN "LCSC"
+	1    3700 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0211
+U 1 1 5DD72374
+P 3700 6700
+F 0 "#PWR0211" H 3700 6550 50  0001 C CNN
+F 1 "+3.3V" H 3715 6873 50  0000 C CNN
+F 2 "" H 3700 6700 50  0001 C CNN
+F 3 "" H 3700 6700 50  0001 C CNN
+	1    3700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D5
+U 1 1 5DD74FD2
+P 4150 6650
+F 0 "D5" V 4104 6729 50  0000 L CNN
+F 1 "B5819W" V 4195 6729 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4150 6650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 4150 6650 50  0001 C CNN
+F 4 "C8598" H 4150 6650 50  0001 C CNN "LCSC"
+	1    4150 6650
+	0    1    1    0   
+$EndComp
+Text GLabel 4150 6500 1    50   Input ~ 0
+GPIO_BEMF
+Wire Wire Line
+	3700 7000 3700 7050
+Connection ~ 3700 7050
+Wire Wire Line
+	3700 7050 4150 7050
+$Comp
+L Connector_Generic_MountingPin:Conn_01x04_MountingPin J?
+U 1 1 5DDE075B
+P 8050 1000
+AR Path="/5DDE075B" Ref="J?"  Part="1" 
+AR Path="/5D59ABFE/5DDE075B" Ref="J9"  Part="1" 
+F 0 "J9" H 8138 914 50  0000 L CNN
+F 1 "AIN/PWM" H 8138 823 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 8050 1000 50  0001 C CNN
+F 3 "~" H 8050 1000 50  0001 C CNN
+	1    8050 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7400 1000 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	7400 1000 7850 1000
+Text GLabel 9550 4900 0    50   Input ~ 0
+PWM
+Text GLabel 9550 3000 0    50   Input ~ 0
+UART_RX
+Text GLabel 9550 2700 0    50   Input ~ 0
+UART_TX
+Text GLabel 4100 1200 0    50   Input ~ 0
+UART_TX
+Text GLabel 4100 1100 0    50   Input ~ 0
+UART_RX
+$Comp
+L Device:D_Small D?
+U 1 1 5DF35224
+P 4550 3400
+AR Path="/5DF35224" Ref="D?"  Part="1" 
+AR Path="/5D59ABFE/5DF35224" Ref="D14"  Part="1" 
+F 0 "D14" V 4504 3468 50  0000 L CNN
+F 1 "SM4007PL" V 4595 3468 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" V 4550 3400 50  0001 C CNN
+F 3 "~" V 4550 3400 50  0001 C CNN
+	1    4550 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DF3CAC5
+P 4650 5200
+AR Path="/5DF3CAC5" Ref="D?"  Part="1" 
+AR Path="/5D59ABFE/5DF3CAC5" Ref="D15"  Part="1" 
+F 0 "D15" V 4604 5268 50  0000 L CNN
+F 1 "SM4007PL" V 4695 5268 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" V 4650 5200 50  0001 C CNN
+F 3 "~" V 4650 5200 50  0001 C CNN
+	1    4650 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 5200 4550 5200
 $EndSCHEMATC
