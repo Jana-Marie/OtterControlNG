@@ -2451,10 +2451,10 @@ $EndComp
 Wire Wire Line
 	2350 6700 1950 6700
 $Comp
-L Regulator_Linear:AP2204R-3.3 U?
+L Regulator_Linear:AP2204R-3.3 U12
 U 1 1 5E17031B
 P 1700 5650
-F 0 "U?" H 1700 5892 50  0000 C CNN
+F 0 "U12" H 1700 5892 50  0000 C CNN
 F 1 "AP2204R-3.3" H 1700 5801 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3" H 1700 5875 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 1700 5650 50  0001 C CNN
