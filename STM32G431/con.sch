@@ -1646,10 +1646,10 @@ F 3 "" H 3600 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0232
 U 1 1 5E0AF941
 P 4150 4450
-F 0 "#PWR?" H 4150 4300 50  0001 C CNN
+F 0 "#PWR0232" H 4150 4300 50  0001 C CNN
 F 1 "+3.3V" H 4165 4623 50  0000 C CNN
 F 2 "" H 4150 4450 50  0001 C CNN
 F 3 "" H 4150 4450 50  0001 C CNN
@@ -1659,10 +1659,10 @@ $EndComp
 Wire Wire Line
 	4150 5200 4500 5200
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D15
 U 1 1 5DFB1AE0
 P 4650 5200
-F 0 "D?" V 4604 5279 50  0000 L CNN
+F 0 "D15" V 4604 5279 50  0000 L CNN
 F 1 "B5819W" V 4695 5279 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 4650 5200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 4650 5200 50  0001 C CNN
@@ -1671,10 +1671,10 @@ F 4 "C8598" H 4650 5200 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D14
 U 1 1 5DFBDED8
 P 4550 3450
-F 0 "D?" V 4504 3529 50  0000 L CNN
+F 0 "D14" V 4504 3529 50  0000 L CNN
 F 1 "B5819W" V 4595 3529 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 4550 3450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 4550 3450 50  0001 C CNN
