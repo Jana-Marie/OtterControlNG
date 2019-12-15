@@ -1277,8 +1277,8 @@ Text GLabel 9550 3400 0    50   Input ~ 0
 SWDIO
 Text GLabel 10150 4300 2    50   Input ~ 0
 NTC_POWERSTAGE
-Text GLabel 10150 4900 2    50   Input ~ 0
-Ain
+Text GLabel 10150 5000 2    50   Input ~ 0
+AinC
 $Comp
 L power:GND #PWR0164
 U 1 1 5CEAAAD8
@@ -1682,4 +1682,6 @@ F 4 "C8598" H 4550 3450 50  0001 C CNN "LCSC"
 	1    4550 3450
 	0    1    1    0   
 $EndComp
+Text Label 7650 1100 0    50   ~ 0
+AinC
 $EndSCHEMATC
