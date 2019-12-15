@@ -1716,17 +1716,6 @@ F 3 "" H 6500 6700 50  0001 C CNN
 $EndComp
 Connection ~ 6500 6700
 $Comp
-L Regulator_Linear:AMS1117-3.3 U12
-U 1 1 5DE93FBE
-P 1700 5650
-F 0 "U12" H 1700 5892 50  0000 C CNN
-F 1 "AMS1117-3.3" H 1700 5801 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 1700 5850 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 1800 5400 50  0001 C CNN
-	1    1700 5650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C43
 U 1 1 5DE96B1D
 P 1150 5750
@@ -2461,4 +2450,15 @@ F 3 "" H 1950 6900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2350 6700 1950 6700
+$Comp
+L Regulator_Linear:AP2204R-3.3 U?
+U 1 1 5E17031B
+P 1700 5650
+F 0 "U?" H 1700 5892 50  0000 C CNN
+F 1 "AP2204R-3.3" H 1700 5801 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 1700 5875 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 1700 5650 50  0001 C CNN
+	1    1700 5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
