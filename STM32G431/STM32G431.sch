@@ -1759,17 +1759,6 @@ F 3 "" H 2200 5850 50  0001 C CNN
 	1    2200 5850
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+12V #PWR0204
-U 1 1 5DEAA9C5
-P 1150 5550
-F 0 "#PWR0204" H 1150 5400 50  0001 C CNN
-F 1 "+12V" H 1165 5723 50  0000 C CNN
-F 2 "" H 1150 5550 50  0001 C CNN
-F 3 "" H 1150 5550 50  0001 C CNN
-	1    1150 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1150 5550 1150 5650
 Wire Wire Line
@@ -2459,6 +2448,17 @@ F 1 "AP2204R-3.3" H 1700 5801 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3" H 1700 5875 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 1700 5650 50  0001 C CNN
 	1    1700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DFAD6AC
+P 1150 5550
+F 0 "#PWR?" H 1150 5400 50  0001 C CNN
+F 1 "+5V" H 1165 5723 50  0000 C CNN
+F 2 "" H 1150 5550 50  0001 C CNN
+F 3 "" H 1150 5550 50  0001 C CNN
+	1    1150 5550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
