@@ -1,0 +1,3 @@
+[submodule "OtterControlNG-FW"]
+	path = OtterControlNG-FW
+	url = https://github.com/Jan--Henrik/OtterControlNG-FW
