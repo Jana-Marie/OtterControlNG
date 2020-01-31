@@ -1,7 +1,9 @@
 # OttercontrolNG
 
-Next generation of OtterControl, based on the PAC5523 and STMBL. Increased power density though an aluminum PCB power stage.
+Next generation of OtterControl, based on the STM32G431 and STMBL. Increased power density though an aluminum PCB power stage.
 
-![](/PAC5523/PAC5523_1.png)
+(not 100% working/tested yet)
+
+![](/STM32G431/STM32G431.png)
 
 ![](/Alu_PCB/AluPCB_PowerStage1_1.png)
