@@ -6,4 +6,4 @@ Next generation of OtterControl, based on the STM32G431 and STMBL. Increased pow
 
 ![](/STM32G431/STM32G431.png)
 
-![](/Alu_PCB/AluPCB_PowerStage1_1.png)
+![](/AluPCB/AluPCB_PowerStage1_1.png)
