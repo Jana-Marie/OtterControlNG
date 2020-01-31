@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:PAC5523-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1670,6 +1670,4 @@ Text Notes 4600 2250 0    50   ~ 0
 C20 package größer\n
 Text Notes 7050 1450 0    50   ~ 0
 Für Design < 20V brücke vorsehen\n
-Text Notes 10250 850  0    50   ~ 0
-Gate Pulldowns!\n
 $EndSCHEMATC
