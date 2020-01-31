@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.4+dfsg1-1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~84~ubuntu19.10.1)
 
   (general
     (thickness 1.6)
@@ -1446,11 +1446,6 @@
       (net 6 IVL))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 39 "Net-(J3-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Left.step
-      (offset (xyz 0 -5 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module otter:PinHeader_1x06_P2.00mm_Vertical (layer F.Cu) (tedit 5DF679B3) (tstamp 5CCABDE0)
@@ -1494,11 +1489,6 @@
       (net 3 IUL))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 38 "Net-(J2-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Left.step
-      (offset (xyz 0 -5 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module otter:PinHeader_1x06_P2.00mm_Vertical locked (layer F.Cu) (tedit 5DF679B3) (tstamp 5CCABDC6)
@@ -1542,11 +1532,6 @@
       (net 9 IWL))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 37 "Net-(J1-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Left.step
-      (offset (xyz 0 -5 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5CCAC18E)
@@ -5787,11 +5772,6 @@
       (net 10 GND))
     (pad 3 thru_hole oval (at 0 4) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 11 VIN))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x03_P2.00mm_Vertical_SMD_Pin1Left.step
-      (offset (xyz 0 -2 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module otter:PinHeader_1x03_P2.00mm_Vertical_COMBI locked (layer F.Cu) (tedit 5CDB283C) (tstamp 5CCABE11)
@@ -5835,11 +5815,6 @@
       (net 10 GND))
     (pad 3 thru_hole oval (at 0 4 180) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 10 GND))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x03_P2.00mm_Vertical_SMD_Pin1Left.step
-      (offset (xyz 0 -2 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5CCAC0C2)
